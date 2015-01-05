@@ -28,3 +28,7 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 * *content:* phrasing content[1]
 * *support:* all browsers
 * *example:*
+```
+<p>This is called a paragraph!</p>
+```
+<p>This is called a paragraph!</p>
