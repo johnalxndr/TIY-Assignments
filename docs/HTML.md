@@ -11,17 +11,16 @@
 Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 </address>
 
-
-### 2. `<h2>` -- Page Heading, Level 2
+### 2. `<button>` -- Button
 
 * *type:* block-level
 * *content:* phrasing content[1]
 * *support:* all browsers
 * *example:*
 ```
-<h2>Search</h2>
+<button name="button">Click me</button>
 ```
-<h2>Search</h2>
+<button name="button">Click me</button>
 
 ### 3. `<p>` -- Paragraph
 
