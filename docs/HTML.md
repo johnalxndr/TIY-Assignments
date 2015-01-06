@@ -55,4 +55,16 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
     <li>bullet</li></ul>
 ```    
 <ul>my unordered list
-    <li>bullet</li></ul>    
+    <li>bullet</li></ul>   
+
+### 7. `<hr>` -- horizontal rule 
+
+* *type:* block-level
+* *content:* flow content
+* *support:* all browsers
+* *example:*
+```
+<hr>
+```
+<hr>
+
