@@ -215,4 +215,13 @@
 ```
 <small> john is small </small>
 
+###17. `<tt>` -- Teletype text 
+* *type:* inline
+* *content:* Flow content
+* *support:* all browswers
+```
+<tt> weird text </tt>
+```
+<tt> weird text </tt>
+
 
