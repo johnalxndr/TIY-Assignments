@@ -157,3 +157,19 @@
   <p>Any kind of content here.</p>
 </div>
 
+### 12. `<blockquote>` -- Blockquote 
+
+* *type:* block-level
+* *content:* Flow content, sectioning root, palpable content.
+* *support:* all browsers
+* *example:*
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla.</p>
+</blockquote>
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla.</p>
+</blockquote>
+
+
