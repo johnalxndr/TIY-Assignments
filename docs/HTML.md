@@ -224,4 +224,13 @@
 ```
 <tt> weird text </tt>
 
+###18. `<abbr>` -- Abbreviation 
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>John Alexander is the coolest <abbr title="John">J</abbr></p>
+```
+<p>John Alexander is the coolest <abbr title="John">J</abbr></p>
 
