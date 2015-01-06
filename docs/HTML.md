@@ -193,3 +193,15 @@
 <big> I AM BIG </big>
 ```
 <big> I AM BIG </big>
+
+### 15. `<i>` -- I element 
+
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content.
+* *support:* all browswers
+* *example:*
+```
+<i> this is different?</i>
+```
+<i> this is different?</i>
+
