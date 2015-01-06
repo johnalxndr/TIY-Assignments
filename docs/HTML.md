@@ -84,3 +84,20 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
   <dt>HTML</dt>
   <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
 </dl>
+
+### 9. `<noscript>` -- No script 
+
+* *type:* block-level
+* *content* meta-data, flow, phrasing 
+* *support* all browswers
+* *example* 
+```
+<noscript>
+  <a href="http://google.com/">External Link</a>
+</noscript>
+<p>Rocks!</p>
+```
+<noscript>
+  <a href="http://google.com/">External Link</a>
+</noscript>
+<p>Rocks!</p>
