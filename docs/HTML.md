@@ -205,3 +205,14 @@
 ```
 <i> this is different?</i>
 
+### 16. `<small>` -- Small Element 
+* *type:* inline
+* *content:* Flow content, phrasing content
+* *support:* all browswers
+* *example:* 
+```
+<small> john is small </small>
+```
+<small> john is small </small>
+
+
