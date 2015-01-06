@@ -244,3 +244,14 @@
 ```
 <p>The <acronym title="World Circuit Tour">WCT</acronym> only accepts 27 surfers every year.</p>
 
+###20. `<cite>` -- citation
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content.
+* *support:* all browsers
+* *example:*
+```
+For more info <cite>[ISO-0000]</cite>.
+```
+For more info <cite>[ISO-0000]</cite>.
+
+
