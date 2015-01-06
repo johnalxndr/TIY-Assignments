@@ -11,7 +11,7 @@
 Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 </address>
 
-### 2. `<button>` -- Button
+### 3. `<button>` -- Button
 
 * *type:* block-level
 * *content:* phrasing content[1]
@@ -22,7 +22,7 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 ```
 <button name="button">Click me</button>
 
-### 3. `<p>` -- Paragraph
+### 4. `<p>` -- Paragraph
 
 * *type:* block-level
 * *content:* phrasing content[1]
@@ -33,13 +33,26 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 ```
 <p>This is called a paragraph!</p>
 
-### 2. `<pre>` -- preformated text
+### 5. `<pre>` -- preformated text
 
 * *type:* block-level
-* *content:* phrasing content[1]
+* *content:* phrasing content
 * *support:* all browsers
 * *example:*
 ```
 <pre>sample</pre>
 ```
 <pre>sample</pre>
+
+### 6.`<ul>` -- unordered list
+
+* *type:* block-level
+* *content:* flow content 
+* *support:* all browsers
+* *example:*
+```
+<ul>my unordered list
+    <li>bullet</li></ul>
+```    
+<ul>my unordered list
+    <li>bullet</li></ul>    
