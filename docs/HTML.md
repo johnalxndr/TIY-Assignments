@@ -234,3 +234,13 @@
 ```
 <p>John Alexander is the coolest <abbr title="John">J</abbr></p>
 
+###19. `<acronyn>` -- Acronym 
+* *type:* inline
+* *content:* flow
+* *support:* all browsers
+* *example:*
+```
+<p>The <acronym title="World Circuit Tour">WCT</acronym> only accepts 27 surfers every year.</p>
+```
+<p>The <acronym title="World Circuit Tour">WCT</acronym> only accepts 27 surfers every year.</p>
+
