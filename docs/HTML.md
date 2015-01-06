@@ -68,3 +68,19 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 ```
 <hr>
 
+### 8. `<dl>` -- definition list
+
+* *type:* block-level
+* *content:* flow content 
+* *support:* all browsers
+* *example:*
+```
+<dl>
+  <dt>HTML/dt>
+  <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
+</dl>
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
+</dl>
