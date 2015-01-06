@@ -183,3 +183,13 @@
 ```
 <p> make something stand <b> OUT </b> </p>
 
+### 14. `<big>` -- Big Element
+
+* *type:* inline
+* *content:* flow content
+* *support:* all browsers
+* *example:* 
+```
+<big> I AM BIG </big>
+```
+<big> I AM BIG </big>
