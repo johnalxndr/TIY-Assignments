@@ -1,15 +1,19 @@
-### 1. `<address>` -- Address
+### 1. `<dd>` -- description 
 
 * *type:* block-level
-* *content:* phrasing content[1]
+* *content:* Flow 
 * *support:* all browsers
 * *example:*
 ```
-<address>Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br></address>
+<dl>
+  <dt>HTML</dt>
+  <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
+</dl>
 ```
-<address>
-Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
-</address>
+<dl>
+  <dt>HTML</dt>
+  <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
+</dl>
 
 ### 3. `<button>` -- Button
 
@@ -88,9 +92,9 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
 ### 9. `<noscript>` -- No script 
 
 * *type:* block-level
-* *content* meta-data, flow, phrasing 
-* *support* all browswers
-* *example* 
+* *content:* meta-data, flow, phrasing 
+* *support:* all browswers
+* *example:* 
 ```
 <noscript>
   <a href="http://google.com/">External Link</a>
@@ -101,3 +105,22 @@ Follow me <a href="https://twitter.com/johnalxndr">twitter</a>.<br>
   <a href="http://google.com/">External Link</a>
 </noscript>
 <p>Rocks!</p>
+
+### 10. `<ol>` -- Ordered list
+
+* *type:* block-level
+* *content:* Flow content, palpable content
+* *support:* all browsers 1.0 and above
+* *example:*
+```
+<ol>
+  <li>one thing</li>
+  <li>two thing</li>
+  <li>three thing</li>
+</ol>
+```
+<ol>
+  <li>one thing</li>
+  <li>two thing</li>
+  <li>three thing</li>
+</ol>
