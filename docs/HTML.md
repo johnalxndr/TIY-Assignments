@@ -141,3 +141,19 @@
   <li>two thing</li>
   <li>three thing</li>
 </ol>
+
+### 11. `<div>` -- Division
+
+* *type:* block level 
+* *content:* Flow content, palpable content.
+* *support:* All browsers
+* *example:*
+```
+<div>
+  <p>Any kind of content here.</p>
+</div>
+```
+<div>
+  <p>Any kind of content here.</p>
+</div>
+
