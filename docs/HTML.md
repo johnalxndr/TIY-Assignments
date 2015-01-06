@@ -15,16 +15,33 @@
   <dd>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</dd>
 </dl>
 
-### 3. `<button>` -- Button
+### 2. `<header>` -- header
 
 * *type:* block-level
-* *content:* phrasing content[1]
+* *content:*Flow content, palpable content.
+* *support:*all browsers
+* *example:*
+```
+<header>
+  My header
+</header>
+```
+<header>
+  My header
+</header>
+
+### 3. `<video>` -- video
+
+* *type:* block-level
+* *content:* Flow content, phrasing content, embedded content.
 * *support:* all browsers
 * *example:*
 ```
-<button name="button">Click me</button>
+<video src="https://www.youtube.com/watch?v=n-TvkmlchpA"
+</video>
 ```
-<button name="button">Click me</button>
+<video src="https://www.youtube.com/watch?v=n-TvkmlchpA"
+</video>
 
 ### 4. `<p>` -- Paragraph
 
