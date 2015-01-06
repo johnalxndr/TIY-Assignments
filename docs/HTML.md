@@ -172,4 +172,14 @@
   <p>This is a quotation taken from the Mozilla.</p>
 </blockquote>
 
+### 13. `<b>` -- B Element 
+
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:* 
+```
+<p> make something stand <b> OUT </b> </p>
+```
+<p> make something stand <b> OUT </b> </p>
 
