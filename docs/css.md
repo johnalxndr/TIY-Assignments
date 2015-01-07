@@ -17,3 +17,13 @@
 #### Values
 * If the value is a URI value, the element pointed to by the URI is used as an SVG mask.
 
+### 3. `flex`
+
+* *elements:* all 
+* *inherited:* no
+
+#### Values
+* `flex-grow`
+* `flex-shrink`
+* `flex-basis`
+
