@@ -53,3 +53,10 @@
 ####Values
 *`<uri>`
 *`<x><y>`
+
+###7. `angle` 
+
+* *elements:* all 
+* *inherited:* no
+
+###Value
