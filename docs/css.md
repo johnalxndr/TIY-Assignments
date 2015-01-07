@@ -37,3 +37,11 @@
 * `percentage`- A relative to the width of the containing block. Negative values are allowed.
 * `Auto`
 
+###5. `display`
+
+* *elements:* all 
+* *inherited:* no
+
+####Values
+*`Display-Value`
+
