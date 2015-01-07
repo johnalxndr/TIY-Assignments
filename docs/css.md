@@ -45,3 +45,11 @@
 ####Values
 *`Display-Value`
 
+###6. `cursor`
+
+* *elements:*all
+*  *inhereited:* yes
+
+####Values
+*`<uri>`
+*`<x><y>`
