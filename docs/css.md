@@ -27,3 +27,13 @@
 * `flex-shrink`
 * `flex-basis`
 
+###4. `margin`
+
+* *elements:* all elements except elements with table display types other than table-caption, table and inline-table. It also applies to ::first-letter.
+* *inherited:* no
+
+#### Values
+* `Length`-Specifies a fixed width. Negative Values are allowed. See for length possible units.
+* `percentage`- A relative to the width of the containing block. Negative values are allowed.
+* `Auto`
+
