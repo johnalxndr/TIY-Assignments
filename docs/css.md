@@ -59,9 +59,20 @@
 * *elements:* all 
 * *inherited:* no
 
-###Value
+###Values
 *`deg`
 *`grad`
 *`rad`
 *`turn`
+
+###8. `left`
+
+* *elements:* positioned
+* *inherited:* no
+
+###Values
+*`length`
+*`percentage`
+*`auto`
+*`inherit`
 
