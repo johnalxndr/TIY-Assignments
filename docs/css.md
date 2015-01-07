@@ -60,3 +60,8 @@
 * *inherited:* no
 
 ###Value
+*`deg`
+*`grad`
+*`rad`
+*`turn`
+
