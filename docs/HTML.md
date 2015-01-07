@@ -141,3 +141,117 @@
   <li>two thing</li>
   <li>three thing</li>
 </ol>
+
+### 11. `<div>` -- Division
+
+* *type:* block level 
+* *content:* Flow content, palpable content.
+* *support:* All browsers
+* *example:*
+```
+<div>
+  <p>Any kind of content here.</p>
+</div>
+```
+<div>
+  <p>Any kind of content here.</p>
+</div>
+
+### 12. `<blockquote>` -- Blockquote 
+
+* *type:* block-level
+* *content:* Flow content, sectioning root, palpable content.
+* *support:* all browsers
+* *example:*
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla.</p>
+</blockquote>
+```
+<blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla.</p>
+</blockquote>
+
+### 13. `<b>` -- B Element 
+
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:* 
+```
+<p> make something stand <b> OUT </b> </p>
+```
+<p> make something stand <b> OUT </b> </p>
+
+### 14. `<big>` -- Big Element
+
+* *type:* inline
+* *content:* flow content
+* *support:* all browsers
+* *example:* 
+```
+<big> I AM BIG </big>
+```
+<big> I AM BIG </big>
+
+### 15. `<i>` -- I element 
+
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content.
+* *support:* all browswers
+* *example:*
+```
+<i> this is different?</i>
+```
+<i> this is different?</i>
+
+### 16. `<small>` -- Small Element 
+* *type:* inline
+* *content:* Flow content, phrasing content
+* *support:* all browswers
+* *example:* 
+```
+<small> john is small </small>
+```
+<small> john is small </small>
+
+###17. `<tt>` -- Teletype text 
+* *type:* inline
+* *content:* Flow content
+* *support:* all browswers
+```
+<tt> weird text </tt>
+```
+<tt> weird text </tt>
+
+###18. `<abbr>` -- Abbreviation 
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>John Alexander is the coolest <abbr title="John">J</abbr></p>
+```
+<p>John Alexander is the coolest <abbr title="John">J</abbr></p>
+
+###19. `<acronyn>` -- Acronym 
+* *type:* inline
+* *content:* flow
+* *support:* all browsers
+* *example:*
+```
+<p>The <acronym title="World Circuit Tour">WCT</acronym> only accepts 27 surfers every year.</p>
+```
+<p>The <acronym title="World Circuit Tour">WCT</acronym> only accepts 27 surfers every year.</p>
+
+###20. `<cite>` -- citation
+* *type:* inline
+* *content:* Flow content, phrasing content, palpable content.
+* *support:* all browsers
+* *example:*
+```
+For more info <cite>[ISO-0000]</cite>.
+```
+For more info <cite>[ISO-0000]</cite>.
+
+
