@@ -81,6 +81,19 @@
 * *elements:* all
 * *inherited:* no
 
-###Values
+####Values
 *there are several ways to describe `<color>` value 
 
+###10. `background`
+
+* *elements:* all
+* *inherited:* no
+
+####Values
+*`attachment`
+*`box`
+*`background-color`
+*`bg-image`
+*`position`
+*`repeat-style`
+*`bg-size`
