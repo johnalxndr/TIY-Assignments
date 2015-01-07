@@ -76,3 +76,11 @@
 *`auto`
 *`inherit`
 
+###9. `color`
+
+* *elements:* all
+* *inherited:* no
+
+###Values
+*there are several ways to describe `<color>` value 
+
