@@ -1,0 +1,312 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    margin:0px;
+}
+.content{
+    border:1px solid #ff0000;
+    max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header{
+    background-image:url("http://cuzzsoft.com/wallbank/5334-sea-tide.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    border:1px solid #ff0000;
+    text-align:center;
+    margin-bottom:20px;
+}
+h1{
+    border:1px solid #ff0000;
+    font-size:600%;
+    margin:150px 0 0 -50px ;
+    color: white;
+}
+H6{
+    border:1px solid #ff0000;
+    font-size:100%;
+    color:gray;
+    margin:0 0 100px 0;
+}
+.banner-box{
+    border:1px solid #ff0000;
+	position:absolute;
+	width: 100%;
+	padding: 0 10px 0 0 ;
+	box-sizing: border-box;
+}
+.logo{
+    border:1px solid #ff0000;
+    height:50px;
+    width:50px;
+}
+.logo-container {
+	float: left;
+	margin-top: 5px;
+	margin-left:5px;
+}
+.sidebar {
+	width: 36.3%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 88px; 
+	margin: 0;
+}
+.circle-pic {
+	border-radius: 10;
+	width: 25;
+	height: 25px;
+	margin: 0 auto;
+}
+.sidebar-pic {
+	margin-top: 53px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.side-surfer {
+	width: 100%;
+}
+
+footer {
+	background-color: #083452;
+	width:100%;
+	height: 90px;
+	clear: both;
+	overflow: hidden;
+}
+
+.footer-left {
+	margin-top: 5px;
+	margin-left: 81px;
+	float: left;
+}
+
+.footer-left p {
+	margin-top: 29px;
+	margin-left: 11px;
+	color: #a3b3bf;
+	display: inline-block;
+}
+
+.footer-nav {
+	float: right;
+	margin-top: 36px;
+	margin-right: 82px;
+}
+
+.footer-nav a {
+	display:inline;
+	color: #a3b3bf;
+	font-family: 'Open-sans' sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 28px;
+	text-decoration: none;
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
