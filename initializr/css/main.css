@@ -69,9 +69,7 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
-h2{
-    font-size:;
-}
+
 header{
     background-image:url("http://cuzzsoft.com/wallbank/5334-sea-tide.jpg");
     background-repeat:no-repeat;
@@ -98,8 +96,6 @@ H6{
 	width: 100%;
 	padding: 0 10px 0 0 ;
 	box-sizing: border-box;
-	
-    
 }
 .logo{
     border:1px solid #ff0000;
@@ -111,6 +107,29 @@ H6{
 	margin-top: 5px;
 	margin-left:5px;
 }
+.sidebar {
+	width: 36.3%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 88px; 
+	margin: 0;
+}
+.circle-pic {
+	border-radius: 10;
+	width: 25;
+	height: 25px;
+	margin: 0 auto;
+}
+.sidebar-pic {
+	margin-top: 53px;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.side-surfer {
+	width: 100%;
+}
+
 footer {
 	background-color: #083452;
 	width:100%;
