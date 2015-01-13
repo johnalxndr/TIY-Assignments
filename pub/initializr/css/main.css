@@ -60,7 +60,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+#first-lightbox{
+    background:#62acf6;
+}
+#second-darkbox{
+    background:#277fc2;
+}
+#page-container{
+    margin-left:20%;
+    margin-right:30%;
+}
 
 
 
