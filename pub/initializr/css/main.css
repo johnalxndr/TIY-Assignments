@@ -60,13 +60,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header {
+    text-align: center;
+    color: #47a3da;
+    height: 150px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2em;
+ }
 
+.timeline > * {
+    background-color: #AFDCF8;
+    display: block;
+    padding: 0 5% 1% 5%;
+    margin-bottom: 2%;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+}
 
-
-
-
-
-
+.timeline p {
+    font-size: 2em;
+}
+    
+.timeline > *:nth-child(even) {
+    background-color: #6CBFEE;
+}
 
 
 
