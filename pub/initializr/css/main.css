@@ -60,47 +60,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#first-lightbox{
-    background:#47a3da;
-    border:4px;
-    border-radius:8px;
-    margin-bottom:15px;
-    font-weight:lighter;
-    margin-left:55px;
-}
-#second-darkbox{
-    background:#3594bc;
-    border:4px;
-    border-radius:8px;
-    margin-bottom:15px;
-    font-weight:lighter;
-    margin-left:55px;
-}
-#page-container{
-    border-left:solid 15px #afdcf8;
-    margin-left:20%;
-    margin-right:10%;
-}
-p{
-    font-size: 1em;
-    color:white;
-    padding:5% 5% 5% 5%;
-}
-h2{
-    font-size:2em;
-    color:white;
-    text-align:center;
-}
-.fa{
-    border-radius:blue;
-}
-i{
-    color:white;
-    margin-right:100%;
-    border-radius:10px;
-    border:solid 5px #afdcf8;
-    background-color:#3594bc;
-}
 
 
 
