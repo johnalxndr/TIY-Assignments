@@ -66,8 +66,9 @@ body{
 }
  
 .contatiner{
-         width:80%;
+        width:80%;
         margin:auto;
+        min-width: 420px; 
      }
 .timeline{
          list-style-type: none;
@@ -82,12 +83,37 @@ article{
          border-radius:1ex;
      }
 p{
-         color:white;
-         padding:1em;
+    color:white;
+    padding:1em;
      }
-.i{
+.fa{
     float:right;
+    color:#fff;
+    background:#87BDEE;
+    border-radius: 50%;
+    position:relative;
+    border:7px solid steelblue;
+    height:45px;
+    width:45px;
+    text-align: center;
+    margin-top:
+    
 }
+time small{
+    position:relative;
+    color:#999;
+    margin-bottom:0;
+}
+time big{
+    color:#87BDEE;
+    font-size: 2em;
+}
+time{
+    position:relative;
+    display:inline;
+}
+    
+
 
     
     
@@ -101,8 +127,9 @@ p{
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
+@media only screen and (min-width: 650px) {
+.container{
+    min-width:410px;
 }
 
 @media print,
