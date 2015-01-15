@@ -60,71 +60,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container{
-    padding:10%
+
+body{
+    margin-right:4em
 }
-.timeline > * {
-    background-color: #AFDCF8;
-    display: block;
-    padding: 0 5% 1% 5%;
-    margin-bottom: 2%;
-    position: relative;
-    font-family: 'Cabin', sans-serif;
+ 
+.contatiner{
+         width:80%;
+        margin:auto;
+     }
+.timeline{
+         list-style-type: none;
+     }
+h3{    
+    border-bottom:solid .1em white;
+    color:white;
+    text-align:center
+     }
+article{
+         background-color:#87BDEE;
+         border-radius:1ex;
+     }
+p{
+         color:white;
+         padding:1em;
+     }
+.i{
+    float:right;
 }
 
-.timeline p {
-    font-size: 2em;
-}
     
-.timeline > *:nth-child(even) {
-    background-color: #6CBFEE;
-}
+    
 
-.timeline article  {
-    color: white;    
-}
 
-.timeline article > h3 {
-    border-bottom: 1px solid;
-    padding-bottom: 1%;
-    font-size: 2em;
-    margin-top: 0;
-}
-.timeline {
-    border-left: 10px solid #AFDCF8
-}
 
-li {
-    border-radius: 5px;
-}
 
-.time-block {
-    color: darkgray;
-    margin-left: -225px;
-    width: 100px;
-    text-align: center;
-    display:block;
-    position:absolute;
-}
-
-.timeline {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.icon {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    left: -80px;
-    text-align: center;
-    background: #47a3da;
-    border-radius: 50%;
-    color: white;
-    border: 10px solid #AFDCF8;
-    line-height: 60px;
-    margin-top: 0;
-}
 
 
 /* ==========================================================================
@@ -141,6 +111,7 @@ li {
        (min-resolution: 120dpi) {
 
 }
+
 
 /* ==========================================================================
    Helper classes
