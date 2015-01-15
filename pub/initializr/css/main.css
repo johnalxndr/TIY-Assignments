@@ -139,27 +139,19 @@ time{
     min-width:350px;
 }
 .timeline {
-    padding-left: 1ex;
-    border-left: 10px solid #62AFEF;
+    padding-left: 3em;
+    border-left: 8px solid #afdcf8;
 }
-    
-.fa {
-    display: inline-block;
-    float: left;
-    margin-left: -1em;
-}
-
-.time {
-}
-
 .fa{
-    margin-top: -1.5em;
-    left: -15.7em;
+    margin-top: 3.5em;
+    left:2.1em;
+    position:absolute;
 }
     
 
-ol > li {
-    margin: 3em 1em 3em 2em;
+ol{
+    margin: 2em 1em 2em 5em;
+}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
