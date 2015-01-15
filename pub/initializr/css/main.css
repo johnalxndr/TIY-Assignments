@@ -71,8 +71,19 @@ body{
         min-width: 420px; 
      }
 .timeline{
-         list-style-type: none;
+        list-style-type: none;
      }
+.arrow-up {
+	border-color: #62AFEF transparent;
+	border-style: solid;
+	border-width: 0px 15px 15px 15px;
+	height: 0px;
+	width: 0px;
+    margin-left:1.5em;
+}
+time, .arrow-up{
+  text-align:left;
+}
 h3{    
     border-bottom:solid .1em white;
     margin-right:15px;
@@ -83,6 +94,7 @@ h3{
 article{
     background-color:#62AFEF;
     border-radius:1ex;
+    margin-top:-1.5em
      }
 p{
     margin-top:-2ex;
@@ -95,10 +107,12 @@ p{
     background:#62AFEF;
     border-radius: 50%;
     position:relative;
-    border:7px solid lightblue;
-    height:45px;
-    width:45px;
+    border:7px solid #afdcf8;
+    height:40px;
+    width:40px;
     text-align: center;
+    margin:12px;
+    line-height:2;
     
 }
 time small{
@@ -115,25 +129,37 @@ time{
     position:relative;
     display:inline-block;
 }
-    
-
-
-    
-    
-
-
-
-
-
 
 /* ==========================================================================
-   Media Queries
+   Media Queries /MEDIUM BREAK
    ========================================================================== */
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width:675px) {
 .container{
-    min-width:410px;
+    min-width:350px;
 }
+.timeline {
+    padding-left: 1ex;
+    border-left: 10px solid #62AFEF;
+}
+    
+.fa {
+    display: inline-block;
+    float: left;
+    margin-left: -1em;
+}
+
+.time {
+}
+
+.fa{
+    margin-top: -1.5em;
+    left: -15.7em;
+}
+    
+
+ol > li {
+    margin: 3em 1em 3em 2em;
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
