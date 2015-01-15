@@ -60,66 +60,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#first-lightbox{
-    background:#47a3da;
-    border:4px;
-    border-radius:8px;
-    margin-bottom:15px;
-    font-weight:lighter;
-    margin-left:55px;
+
+body{
+    margin-right:4em
 }
-#second-darkbox{
-    background:#3594bc;
-    border:4px;
-    border-radius:8px;
-    margin-bottom:15px;
-    font-weight:lighter;
-    margin-left:55px;
+ 
+.contatiner{
+        width:80%;
+        margin:auto;
+        min-width: 420px; 
+     }
+.timeline{
+        list-style-type: none;
+     }
+.arrow-up {
+	border-color: #62AFEF transparent;
+	border-style: solid;
+	border-width: 0px 15px 15px 15px;
+	height: 0px;
+	width: 0px;
+    margin-left:1.5em;
 }
-#page-container{
-    border-left:solid 15px #afdcf8;
-    margin-left:20%;
-    margin-right:10%;
+time, .arrow-up{
+  text-align:left;
 }
+h3{    
+    border-bottom:solid .1em white;
+    margin-right:15px;
+    color:white;
+    text-align:left;
+    margin-left:15px;
+     }
+article{
+    background-color:#62AFEF;
+    border-radius:1ex;
+    margin-top:-1.5em
+     }
 p{
-    font-size: 1em;
+    margin-top:-2ex;
     color:white;
-    padding:5% 5% 5% 5%;
-}
-h2{
-    font-size:2em;
-    color:white;
-    text-align:center;
-}
+    padding:2ex;
+     }
 .fa{
-    border-radius:blue;
+    float:right;
+    color:#fff;
+    background:#62AFEF;
+    border-radius: 50%;
+    position:relative;
+    border:7px solid #afdcf8;
+    height:40px;
+    width:40px;
+    text-align: center;
+    margin:12px;
+    line-height:2;
+    
 }
-i{
-    color:white;
-    margin-right:100%;
-    border-radius:10px;
-    border:solid 5px #afdcf8;
-    background-color:#3594bc;
+time small{
+    position:relative;
+    color:#999;
+    margin-bottom:0;
+    display:block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+time big{
+    color:#62AFEF;
+    font-size: 2em;
+}
+time{
+    position:relative;
+    display:inline-block;
+}
 
 /* ==========================================================================
-   Media Queries
+   Media Queries /MEDIUM BREAK
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width:675px) {
+.container{
+    min-width:350px;
+}
+.timeline {
+    padding-left: 3em;
+    border-left: 8px solid #afdcf8;
+}
+.fa{
+    margin-top: 3.5em;
+    left:2.1em;
+    position:absolute;
+}
+    
 
+ol{
+    margin: 2em 1em 2em 5em;
 }
 
 @media print,
@@ -129,10 +160,10 @@ i{
 
 }
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 .ir {
     background-color: transparent;
     border: 0;
