@@ -75,42 +75,45 @@ body{
      }
 h3{    
     border-bottom:solid .1em white;
+    margin-right:15px;
     color:white;
-    text-align:center
+    text-align:left;
+    margin-left:15px;
      }
 article{
-         background-color:#87BDEE;
-         border-radius:1ex;
+    background-color:#62AFEF;
+    border-radius:1ex;
      }
 p{
+    margin-top:-2ex;
     color:white;
-    padding:1em;
+    padding:2ex;
      }
 .fa{
     float:right;
     color:#fff;
-    background:#87BDEE;
+    background:#62AFEF;
     border-radius: 50%;
     position:relative;
-    border:7px solid steelblue;
+    border:7px solid lightblue;
     height:45px;
     width:45px;
     text-align: center;
-    margin-top:
     
 }
 time small{
     position:relative;
     color:#999;
     margin-bottom:0;
+    display:block;
 }
 time big{
-    color:#87BDEE;
+    color:#62AFEF;
     font-size: 2em;
 }
 time{
     position:relative;
-    display:inline;
+    display:inline-block;
 }
     
 
