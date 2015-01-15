@@ -80,6 +80,7 @@ body{
 	height: 0px;
 	width: 0px;
     margin-left:1.5em;
+    position:relative;
 }
 time, .arrow-up{
   text-align:left;
@@ -142,16 +143,29 @@ time{
     padding-left: 3em;
     border-left: 8px solid #afdcf8;
 }
+time{
+    position:absolute;
+    left:-.1em;
+    margin-left:1em
+}
+    
 .fa{
     margin-top: 3.5em;
     left:2.1em;
     position:absolute;
 }
     
-
 ol{
     margin: 2em 1em 2em 5em;
 }
+    .arrow-up{
+    margin-right:-8em;
+    position:absolute;
+    right:100%;
+    -webkit-transform:rotate
+        transform: rotate(-90deg)
+}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
@@ -159,6 +173,11 @@ ol{
        (min-resolution: 120dpi) {
 
 }
+    
+    
+    @media only screen and (min-width:800px) {
+    <!--Header will go here-->
+    
 
 
 /* ==========================================================================
