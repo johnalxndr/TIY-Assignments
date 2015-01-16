@@ -116,9 +116,14 @@ img{
 }
 h1{
     color:white;
+    text-shadow: 1px 1px #999
+}
+h4{
+    margin-top:-3em;
+    color:#3676dd;
 }
 h5{
-    color:white;
+    color:black;
 }
 h2{
     color:#131c7e;
@@ -139,21 +144,32 @@ blockquote{
     text-decoration: underline;
     color:#989890;
 }
+section img{
+    height: 20em;
+    width:20em;
+}
 .leftleft-block img{
-    height: 30em;
+    height:20em;
     width: 30em;
 }
 .left-block img{
-    height:30em;
+    height:20em;
     width:30em;
 }
 .right-block img{
-    height:30em;
+    height:20em;
     width:30em;
 }
 .rightright-block img{
-    height:30em;
+    height:20em;
     width:30em;
+}
+.authorlinks{
+    text-decoration:none;
+    color:#989898;
+}
+.side{
+    text-align:center;
 }
 
 
