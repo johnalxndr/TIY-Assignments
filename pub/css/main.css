@@ -96,7 +96,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+header{
+    background-image: url("http://www.wallpaperbod.com/wp-content/uploads/2013/05/Sea-Water-Waves-Nature.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:10em;
+    background-size: cover;
+}   
 
 
 
