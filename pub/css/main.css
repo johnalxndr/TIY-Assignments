@@ -103,10 +103,9 @@ header{
     ), url("http://www.wallpaperbod.com/wp-content/uploads/2013/05/Sea-Water-Waves-Nature.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    height:18em;
+    height:16em;
     background-size: cover;
-    text-align: center;
-    font-family: 'O
+    text-align: center;    
 }  
 header img{
     height: 4em;
@@ -143,7 +142,7 @@ h2{
 }
 blockquote{
     border-left:solid #a09292;
-    padding-left:2em;
+    padding-left:1em;
     margin-left:0;
     font-size:2em;
     color: #131c7e;
@@ -178,6 +177,7 @@ footer a{
 }
 footer h8{
     color:#cbbcbc;
+    font-size: 1.5ex;
 }
 .share a {
     color:white;
@@ -190,11 +190,16 @@ footer h8{
     font-size: 1em;
 }
 .advertise {
-    height:27em;
-    width:27em;
+    height:100%;
+    width:100%;
     display:block;
+    margin-top:5%;
     margin-left: auto;
     margin-right: auto;
+}
+.about-ad{
+    text-decoration: none;
+    color: #848484
 }
 .mostpopular article{
     position:relative;
@@ -205,8 +210,8 @@ footer h8{
     height:20em;
     width: 100%;
     position:relative;
-    margin-top: -1em;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 article h5{
     font-size: 2em;
@@ -218,7 +223,6 @@ section h3{
     text-align: center;
     color:#131c7e;
     font-size:2.1em;
-    
 }
 
 
@@ -336,9 +340,8 @@ section h3{
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
+}
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
@@ -346,7 +349,26 @@ section h3{
     /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
+/*
+
+==========================================================================
+ MEDIA QUERY MEDIUM.
+   ========================================================================== */
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+    .box img {
+        width:25em;
+        height:25em;
+        display:inline;    
+    }
+}
+
+
+
+==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
