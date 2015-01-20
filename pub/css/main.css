@@ -355,13 +355,21 @@ section h3{
    ========================================================================== */
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+and (min-width : 768px) 
+and (max-width : 1400px) {
 /* Styles */
     .box img {
-        width:25em;
-        height:25em;
-        display:inline;    
+        width:20em;
+        height:20em;
+        float: right;
+        margin-right:
+        margin-left: 3%
+    }
+    section.mostpopular{
+        text-align: center;
+    }
+    footer{
+        clear:both;
     }
 }
 
