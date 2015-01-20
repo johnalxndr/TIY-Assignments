@@ -97,10 +97,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
+table{
+    border: 2px solid #2be04e;
+}
+td{
+    height:4em;
+    width:4em;
+}
+.r1 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r2 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r3 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r4 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r5 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r6 :nth-of-type(odd){
+    background-color: #999;
+     border: 2px solid #2be04e
+}
+.r7 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r8 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
 
 
 
