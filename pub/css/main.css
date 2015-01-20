@@ -338,7 +338,9 @@ section h3{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen 
+    and (min-width: 300px)
+    and (max-width: 700px) {
 
 }
 @media print,
@@ -355,8 +357,8 @@ section h3{
    ========================================================================== */
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
-and (min-width : 768px) 
-and (max-width : 1400px) {
+and (min-width : 700px) 
+and (max-width : 1000px) {
 /* Styles */
     .box img {
         width:20em;
@@ -375,10 +377,32 @@ and (max-width : 1400px) {
 
 
 
+
+
+==========================================================================
+/*MEDIA QUERY DESKTOP VERSION*/
+
+==========================================================================
+@media only screen 
+and (min-width : 1000px) 
+and (max-width : 2400px) {
+    .side{
+        float:right;
+    }
+    .main{
+        float: left;
+    }
+}
+
+
+
+
+
 ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
+
 
 @media print {
     * {
