@@ -146,133 +146,183 @@ tr{
 }
  #a8::before{
    content: "\2656";
-   position:absolute;
+   font-size: 2em;
+}
+ #a8:hover{
+    background-color: #1bbc6b;
 }
  #b8::before{
    content: "\2658";
-   position:absolute;
+   font-size:2em;
+}
+#b8:hover{
+    background-color: #1bbc6b;
 }
  #c8::before{
    content: "\2657";
-   position:absolute;
+     font-size:2em;
 }
- #d8::before{
+#c8:hover{
+    background-color: #1bbc6b;
+}
+#d8::before{
    content: "\2655";
-   position:absolute;
+   font-size:2em;
+}
+#d8:hover{
+    background-color: #1bbc6b;
 }
  #e8::before{
    content: "\2654";
-   position:absolute;
+     font-size:2em;
+}
+#e8:hover{
+    background-color: #1bbc6b;
 }
  #f8::before{
    content: "\2657";
-   position:absolute;
+     font-size:2em;
+}
+#f8:hover{
+    background-color: #1bbc6b;
 }
  #g8::before{
    content: "\2658";
-   position:absolute;
+     font-size:2em;
+}
+#g8:hover{
+    background-color: #1bbc6b;
 }
  #h8::before{
    content: "\2656";
-   position:absolute;
+   font-size:2em;
+}
+#h8:hover{
+    background-color: #1bbc6b;
 }
  #a7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
 }
- #b7::before{
+#a7:hover{
+    background-color: #1bbc6b;
+}
+
+#b7::before{
    content: "\2659";
-   position:absolute;
+   font-size:2em;
 }
+#b7:hover{
+    background-color: #1bbc6b;
+}
+
  #c7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#c7:hover{
+    background-color: #1bbc6b;
 }
  #d7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#d7:hover{
+   background-color: #1bbc6b; 
 }
  #e7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#e7:hover{
+    background-color: #1bbc6b;
 }
  #f7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#f7:hover{
+    background-color: #1bbc6b;
 }
  #g7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#g7:hover{
+    background-color: #1bbc6b;
 }
  #h7::before{
    content: "\2659";
-   position:absolute;
+     font-size:2em;
+}
+#h7:hover{
+    background-color: #1bbc6b;
 }
 
  #a2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #b2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #c2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #d2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #e2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #f2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #g2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
  #h2::before{
    content: "\265F";
-   position:absolute;
+     font-size:2em;
 }
 
  #a1::before{
    content: "\265C";
-   position:absolute;
+     font-size:2em;
 }
  #b1::before{
    content: "\265E";
-   position:absolute;
+     font-size:2em;
 }
  #c1::before{
    content: "\265D";
-   position:absolute;
+     font-size:2em;
 }
  #d1::before{
    content: "\265A";
-   position:absolute;
+     font-size:2em;
 }
  #e1::before{
    content: "\265F";
-   position:absolute;
+   font-size:2em;
 }
  #f1::before{
    content: "\265D";
-   position:absolute;
+     font-size:2em;
 }
  #g1::before{
    content: "\265E";
-   position:absolute;
+     font-size:2em;
 }
  #h1::before{
    content: "\265C";
-   position:absolute;
+    font-size:2em;
 }
 
 
