@@ -99,10 +99,14 @@ textarea {
 
 table{
     border: 2px solid #2be04e;
+    margin:0 auto;
+    margin-top: 4em;
+    
 }
 td{
-    height:4em;
-    width:4em;
+    border: 2px solid #2be04e;
+    height:5%;
+    width:5%;
 }
 .r1 :nth-of-type(even){
     background-color: #999;
@@ -126,7 +130,7 @@ td{
 }
 .r6 :nth-of-type(odd){
     background-color: #999;
-     border: 2px solid #2be04e
+     border: 2px solid #2be04e;
 }
 .r7 :nth-of-type(even){
     background-color: #999;
@@ -136,7 +140,6 @@ td{
     background-color: #999;
     border: 2px solid #2be04e;
 }
-
 
 
 
