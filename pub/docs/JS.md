@@ -36,4 +36,29 @@ true
 ```javascript
 "hello there!"
 ```
+### [Built in Values: NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+
+* _symbol_: "NaN"
+* _pronunciation_: "not a number" "nan'"
+* _examples_:
+```javascript
+"john" === NaN
+```
+### [Built in Values: Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+
+* _symbol_: "Infinity"
+* pronunciation_: "in-fin-ne-tee"
+* _examples_:
+```javascript
+10 * infinity == infinity
+```
+### [Built in Values: Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+
+* _symbol_: "Undefined"
+* _pronunciation_: "un-de-fined"
+* _examples_:
+```javascript
+
+```
+
 
