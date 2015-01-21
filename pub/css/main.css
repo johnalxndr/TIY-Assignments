@@ -144,9 +144,136 @@ tr{
     background-color: #999;
     border: 2px solid #2be04e;
 }
+ #a8::before{
+   content: "\2656";
+   position:absolute;
+}
+ #b8::before{
+   content: "\2658";
+   position:absolute;
+}
+ #c8::before{
+   content: "\2657";
+   position:absolute;
+}
+ #d8::before{
+   content: "\2655";
+   position:absolute;
+}
+ #e8::before{
+   content: "\2654";
+   position:absolute;
+}
+ #f8::before{
+   content: "\2657";
+   position:absolute;
+}
+ #g8::before{
+   content: "\2658";
+   position:absolute;
+}
+ #h8::before{
+   content: "\2656";
+   position:absolute;
+}
+ #a7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #b7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #c7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #d7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #e7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #f7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #g7::before{
+   content: "\2659";
+   position:absolute;
+}
+ #h7::before{
+   content: "\2659";
+   position:absolute;
+}
 
+ #a2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #b2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #c2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #d2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #e2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #f2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #g2::before{
+   content: "\265F";
+   position:absolute;
+}
+ #h2::before{
+   content: "\265F";
+   position:absolute;
+}
 
-
+ #a1::before{
+   content: "\265C";
+   position:absolute;
+}
+ #b1::before{
+   content: "\265E";
+   position:absolute;
+}
+ #c1::before{
+   content: "\265D";
+   position:absolute;
+}
+ #d1::before{
+   content: "\265A";
+   position:absolute;
+}
+ #e1::before{
+   content: "\265F";
+   position:absolute;
+}
+ #f1::before{
+   content: "\265D";
+   position:absolute;
+}
+ #g1::before{
+   content: "\265E";
+   position:absolute;
+}
+ #h1::before{
+   content: "\265C";
+   position:absolute;
+}
 
 
 
