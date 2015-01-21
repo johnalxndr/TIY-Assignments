@@ -1,26 +1,30 @@
 var assert = require('assert');
 
-function add(A, B){
-    A + B;
+function add(a, b){
+    return a + b;
 };
-add(2, 3);
+
 
 function diff(A, B){
-    A - B;
+   return A - B;
 };
-diff(5,4);
+
 
 function prod(A, B){
-    A * B;
+  return A * B;
 }
-prod(5, 5);
+
 
 function div(A, B){
-    A / B == 3   
+   return A / B    
 }
-div(25, 5);
-
-assert(div(8, 4)==7 )
 
 
+assert.equal(add(2, 4), 6);
+
+assert.equal(diff(10, 9), 1);
+
+assert.equal(prod(5, 5), 25);
+
+assert.equal(div(10, 5), 2);
 
