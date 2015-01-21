@@ -60,5 +60,30 @@ true
 ```javascript
 
 ```
+### [Operators: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol_: " + "
+* _pronunciation_: "addition" "a-dish-shon"
+* _examples_:
+```javascript
+5 + 5
+```
+### [Operators: Subtraction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol_: " - "
+* _pronunciation_: "subtraction" "sub-tract-shon"
+* _examples_:
+```javascript
+5 - 4
+```
+### [Operators: Multiplication](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol_: " * " 
+* _pronunciation_: "multiplication" "mull-tip-li-cashon"
+* _examples_:
+```javascript
+10 - 9
+```
+
 
 
