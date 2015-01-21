@@ -84,6 +84,15 @@ true
 ```javascript
 10 - 9
 ```
+### [Operators: Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol: " / "
+* _pronunciation_: "div-i-shon"
+* _examples_:
+```javascript
+20 / 5
+```
+
 
 
 

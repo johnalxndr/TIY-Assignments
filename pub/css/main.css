@@ -99,14 +99,18 @@ textarea {
 
 table{
     border: 2px solid #2be04e;
-    margin:0 auto;
-    margin-top: 4em;
-    
+    margin-left: 0 auto;
+    margin-right:0 auto;
+
 }
 td{
     border: 2px solid #2be04e;
-    height:5%;
-    width:5%;
+    width:4em;
+    height:4em;
+}
+tr{
+    width: 100%;
+    height: 100%;
 }
 .r1 :nth-of-type(even){
     background-color: #999;
