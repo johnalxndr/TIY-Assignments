@@ -20,7 +20,7 @@ function div(A, B){
 }
 div(25, 5);
 
-assert(div(8, 4) ==7 )
+assert(div(8, 4)==7 )
 
 
 
