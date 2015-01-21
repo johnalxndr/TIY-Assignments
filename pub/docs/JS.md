@@ -92,6 +92,15 @@ true
 ```javascript
 20 / 5
 ```
+### [Operators: Remainder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+
+* _symbol: " % "
+* _pronunciation_: "re-mane-der"
+* _examples_:
+```javascrit
+12 % 5
+```
+### [Operators: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
 
 
