@@ -86,7 +86,7 @@ true
 ```
 ### [Operators: Division](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
-* _symbol: " / "
+* _symbol_: " / "
 * _pronunciation_: "div-i-shon"
 * _examples_:
 ```javascript
@@ -94,14 +94,42 @@ true
 ```
 ### [Operators: Remainder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
-* _symbol: " % "
+* _symbol_: " % "
 * _pronunciation_: "re-mane-der"
 * _examples_:
 ```javascrit
 12 % 5
 ```
-### [Operators: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
 
+<!--### [Operators: Increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))-->
 
+### [Control Flow: IF](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#if...else_Statement)
 
-
+* _symbol_: " if "
+* _pronunciation_: "if"
+* _examples_:
+```javascript
+if(5==5){
+    console.log("cool")
+};
+```
+### [Control Flow: Else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+* _symbol_: " else "
+* _pronunciation_: "else"
+* _examples_:
+```javascript
+if(1==2){
+console.log("no-way");
+} else{
+console.log("thats wrong");
+};
+```
+### [Statement: Return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+* _symbol_: "return"
+* _pronunciation_: "return"
+* _examples_:
+```javascipt
+function square(x){
+return x * x;
+}
+```
