@@ -22,8 +22,8 @@ assert.equal(div(10, 5), 2);
 
 }
 
-function wordToNum(number){
-    if(word=='zero'){
+
+if(word=='zero'){
         return 0;
 }else if(word=='one'){
         return 1;
@@ -45,10 +45,11 @@ function wordToNum(number){
     return 9; 
 }
 }
+
 function plus(A, B){
     return wordToNum(A) + wordToNum(B);
 
-    assert(plus('two', 'three')==5);
+  
 
 
 

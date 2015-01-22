@@ -133,3 +133,17 @@ function square(x){
 return x * x;
 }
 ```
+### [Statement: Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+* _symbol_: '{   }'
+* _pronunciation_: 'block'
+* _examples_:
+```javascript
+while (x < 10) {
+  x++;
+}
+```
+### [Statement: for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements#Loop_Statements)
+* _symbol_: "for"
+* _pronunciation_: "for"
+* _examples_:
+```javaascript
