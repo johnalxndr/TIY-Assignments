@@ -20,17 +20,35 @@ function div(A, B){
 }
 assert.equal(div(10, 5), 2);
 
-if(5==5){
-    console.log("cool")
-};
+}
 
-if(1==2){
-console.log("no-way");
-} else{
-console.log("thats wrong");
-};
+function wordToNum(number){
+    if(word=='zero'){
+        return 0;
+}else if(word=='one'){
+        return 1;
+}else if(word=='two'){
+        return 2;
+}else if(word=='three'){
+        return 3;
+}else if(word=='four'){
+        return 4;
+}else if (word=='five'){
+    return 5;
+}else if (word=='six'){
+    return 6;
+}else if (word=='seven'){
+    return 7;
+}else if (word=='eight'){
+    return 8;
+}else if (word=='nine'){
+    return 9; 
+}
+}
+function plus(A, B){
+    return wordToNum(A) + wordToNum(B);
 
-
+    assert(plus('two', 'three')==5);
 
 
 
