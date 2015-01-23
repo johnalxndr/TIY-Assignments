@@ -147,3 +147,43 @@ while (x < 10) {
 * _pronunciation_: "for"
 * _examples_:
 ```javaascript
+```
+### [Literals: Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Array_literals)
+* _symbol_: "[ ]"
+* _pronunciation_: "array" "new array"
+* _examples_:
+```javascript
+var colors = ["Blue", "Red", "Orange"]//3 elements created
+var names = ["John", , "David"]// commas create 'undefined' element
+
+```
+### [Property: Array.Length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+* _symbol_: "arr.length"
+* _pronunciation_: " "
+* _examples_:
+```javascript
+var numbers = [1, 2, 3, 4];
+numbers.length
+```
+### [Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+* _symbol_: "arr.pop()"
+* _result_: removes the last element from an array and returns that value 
+* _parameters_:none
+
+### [Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+* _symbol_: "arr.push()"
+* _result_: adds one or more elements to the end of an array and returns the new length of the array. 
+* _parameters_: elementN-the elements to add to the end of the array
+
+### [Array.prototype.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+* _symbol_: "arr.reverse()"
+* _result_: reverses an array in place. the first array element becomes the last and the last becomes first. 
+* _parameters_:none
+
+###
+
+
+
+
+
+
