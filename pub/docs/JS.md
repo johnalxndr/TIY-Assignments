@@ -180,8 +180,25 @@ numbers.length
 * _result_: reverses an array in place. the first array element becomes the last and the last becomes first. 
 * _parameters_:none
 
-###
+### [Array.prototype.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+* _symbol_: "arr.shift()"
+* _result_: removes the first element from an array and returns that element. this method changes the lenght of the array.
+* _parameters_: no
 
+### [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+* _symbol_: "arr.sort([compareFunction])"
+* _result_: sorts the elements of an array in place and returns the array. the sort is not neccessarily stable. the default sort order is according to string unicode points. 
+* _parameters_: compareFunction: optional. 
+
+### [Array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+* _symbol_: "array.splice(start, deleteCount[, item1[item2[, ...]]])
+* _result_: changes the content of an array by removing existing elements and/ or adding new elements. 
+* _parameters_: Start, deleteCount, itemN. 
+
+### [Array.prototype.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+* _symbol_:"arr.unshift([element1[,..[, elementN]]])
+* _result_: Adds one or more elements to the beginning of an array and returns the new length of the array.
+* _parameters_: elementN.
 
 
 
