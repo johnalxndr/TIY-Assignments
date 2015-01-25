@@ -28,5 +28,20 @@ function toEnglish(A){
     
    
 it('should take 0 and return "zero"', function(){
-assert.equal(toEnglish(0), "zero");
+    assert.equal(toEnglish(0), "zero");
 });
+it('should take 1 and return "one"', function(){
+    assert.equal(toEnglish(1), "one");
+})
+it('should take 2 and return "two"',function(){
+    assert.equal(toEnglish(2), "two");
+})
+it('should take 3 and return "three"', function(){
+   assert.equal(toEnglish(3), "three");
+   })
+it('should take 4 and return "four"', function(){
+    assert.equal(toEnglish(4), "four");
+})
+it('should take 5 and return "five"', function(){
+    assert.equal(toEnglish(5), "five");
+})
