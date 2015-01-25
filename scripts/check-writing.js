@@ -45,3 +45,18 @@ it('should take 4 and return "four"', function(){
 it('should take 5 and return "five"', function(){
     assert.equal(toEnglish(5), "five");
 })
+it('should take 6 and return "six"', function(){
+    assert.equal(toEnglish(6), "six");
+})
+it('should take 7 and return "seven"', function(){
+    assert.equal(toEnglish(7), "seven");
+})
+it('should take 8 and return "eight"', function(){
+    assert.equal(toEnglish(8), "eight");
+})
+it('should take 9 and return "nine"', function(){
+    assert.equal(toEnglish(9), "nine");
+})
+it('should take 10 and return "ten"', function(){
+    assert.equal(toEnglish(10), "ten");
+})
