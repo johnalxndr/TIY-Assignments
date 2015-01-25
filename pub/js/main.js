@@ -11,7 +11,8 @@ var board = [
 console.log(board.join('\n')+ '\n\n');
 
 
-//move kings pawn forwrad 2
+//move kings pawn forward
 board[4][4] = board[6][4]
 board[6][4] = ' ';
+
 console.log(board.join('\n'));
