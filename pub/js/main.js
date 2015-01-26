@@ -26,5 +26,8 @@ function move(toY, toX, fromY,fromX){
 
 printBoard();
 }
-
-move(5,5,7,5)
+//toY-X from Y-X
+move(5,5,7,5);
+move(5,1,7,1);
+move(6,3,7,3);
+move(3,2,2,2);
