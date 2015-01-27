@@ -7,13 +7,16 @@ it('should have events', function(){
 });
 
 function answer(){
+    var pushEvents = events.filter(function(item){
+        return item.type == 'PushEvent'; 
+    });
     return { 
         'total': events.length,
-        'PushEvent':{'total': 5} 
-             }
+        'PushEvent':{'total': pushEvents.length} 
+             };
 }
 
-console.log(events.length)
+console.log(answer());
 var theAnswer = answer();
 
     it('should return that answer exists, and test for total events', function() {
