@@ -200,6 +200,55 @@ numbers.length
 * _result_: Adds one or more elements to the beginning of an array and returns the new length of the array.
 * _parameters_: elementN.
 
+<!--
+Literal: Array
+Iterator Methods
+-->
+
+### [Array.prototype.every]
+* _params:_
+  * `callback`: `Function` to test each element against
+    * _params:_
+      * `item`: element to process
+      * `index`: index of processed element
+      * `all`: array instance
+    * _returns:_ `Boolean`
+  * `thisArg`: `Object` to which to bind `callback`
+* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element
+* _example:_
+```javascript
+function every(anArray, callback){
+  var hasFailed = false; // it hasn't has it?
+
+  // iterate...
+  anArray.foreach(function(item, index, all){
+    if ( hasFailed ) return; // one failure ruins everything...
+
+    hasFailed = !callback(item, index, all); // why invert here?
+  });
+
+  return !hasFailed; // Another inverse?
+  // What if `anArray` is empty?
+}
+```
+### [Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* _params_:
+  * 'callback': 'Function' that produces an element of the new Array, taking three arguments.
+* _returns:_ 'undefined'
+* _example:_
+```javascript
+function logArrayElements(element, index, array) {
+  console.log('a[' + index + '] = ' + element);
+}
+
+// Note ellision, there is no member at 2 so it isn't visited
+[2, 5, , 9].forEach(logArrayElements);
+// logs:
+// a[0] = 2
+// a[1] = 5
+// a[3] = 9
+```
+
 
 
 
