@@ -275,8 +275,29 @@ function isBigEnough(element) {
 var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 // filtered is [12, 130, 44]
 ```
-
-
+### [Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* _params_:
+ * 'callback': currentValue, index, array
+ * 'thisArg': Optional
+* _returns:_ an array with results
+* _example:_
+```javascript
+var numbers = [1, 4, 9];
+var roots = numbers.map(Math.sqrt);
+// roots is now [1, 2, 3], numbers is still [1, 4, 9]
+```
+### [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+* _params:
+  * 'callback':previousValue, currentValue, index, array
+  * 'initialValue':
+* _returns:_
+* _example:_
+```javascript   
+var total = [0, 1, 2, 3].reduce(function(a, b) {
+  return a + b;
+});
+// total == 6
+```
 
 
 
