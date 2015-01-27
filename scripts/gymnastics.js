@@ -37,6 +37,8 @@ var theAnswer = answer();
     
     
 
+//old stuff
+
 
 //function answer(){
 //  var index = 0;
