@@ -248,6 +248,34 @@ function logArrayElements(element, index, array) {
 // a[1] = 5
 // a[3] = 9
 ```
+###  [Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+* _params_:
+  * 'callback':current value, index, array, 
+  * 'thisArg':Optional. Value to use as this when executing callback. 
+* _returns:_true, false
+* _example:_
+```javascript
+function isBiggerThan10(element, index, array) {
+  return element > 10;
+}
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
+```
+
+### [Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* _params_:
+  * 'callback': element, index, array.
+  * 'thisArg': Optional
+* _returns:_
+* _example:_
+```javascript
+function isBigEnough(element) {
+  return element >= 10;
+}
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
+```
+
 
 
 
