@@ -287,7 +287,7 @@ var roots = numbers.map(Math.sqrt);
 // roots is now [1, 2, 3], numbers is still [1, 4, 9]
 ```
 ### [Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* _params:
+* _params_:
   * 'callback':previousValue, currentValue, index, array
   * 'initialValue':
 * _returns:_
@@ -298,7 +298,17 @@ var total = [0, 1, 2, 3].reduce(function(a, b) {
 });
 // total == 6
 ```
-
+### [Array.prototype.reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight)
+* _params_:
+  * 'callback': 4 arguments, previousValue, currentValue, index, array.
+  * 'initialValue':
+* _returns:_
+* _example:_
+```javascript
+[0, 1, 2, 3, 4].reduceRight(function(previousValue, currentValue, index, array) {
+  return previousValue + currentValue;
+});
+```
 
 
 
