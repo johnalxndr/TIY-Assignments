@@ -14,7 +14,7 @@ it('should show the string value of the number', function(){
     assert.equal(toEnglish(2), "two");
 });
 
-
+console.log(toEnglish(9));
 
 
 
