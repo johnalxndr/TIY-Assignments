@@ -1,0 +1,2707 @@
+[
+  {
+    "id": "2541183218",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "id": 55683196,
+        "number": 174,
+        "title": "14 -- Almost-Lodash -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-27T22:21:15Z",
+        "updated_at": "2015-01-28T05:25:19Z",
+        "closed_at": null,
+        "body": "* [x] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [x] link to your PR from your _WIP Branch_ to `master`\r\n  * [x] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n*  [x] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [x] `scripts/check-writing.js`\r\n    * [x] using array lookups instead of `if`-`return` chains\r\n    *  [x] tests covering up to `20`\r\n  * [x] `scripts/string-calculator.js`\r\n    * [x] using dictionary lookups instead of `if`-`return` chains\r\n    * [x] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [ ] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [x] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71782993",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/174#issuecomment-71782993",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "id": 71782993,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-28T05:25:19Z",
+        "updated_at": "2015-01-28T05:25:19Z",
+        "body": "{ total: 30, PushEvent: { total: 16 } }"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T05:25:19Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2541170286",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558128869,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--almost-lodash",
+      "head": "30ab1e40d49ef3740804b417d85e72737b0d1b1c",
+      "before": "82a171617deae6de7eef125699bcecd61b1ba6fd",
+      "commits": [
+        {
+          "sha": "30ab1e40d49ef3740804b417d85e72737b0d1b1c",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "using array lookups instead of if-return chains",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/30ab1e40d49ef3740804b417d85e72737b0d1b1c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T05:12:59Z"
+  },
+  {
+    "id": "2541141622",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 558116607,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--almost-lodash",
+      "head": "82a171617deae6de7eef125699bcecd61b1ba6fd",
+      "before": "ff9970a11db45fc41f23e948e8b3235cf047c25b",
+      "commits": [
+        {
+          "sha": "82a171617deae6de7eef125699bcecd61b1ba6fd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "string-calculator with dictionary lookups instead of if else",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/82a171617deae6de7eef125699bcecd61b1ba6fd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T04:45:31Z"
+  },
+  {
+    "id": "2540617688",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/13--lists+dicts",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T23:02:00Z"
+  },
+  {
+    "id": "2540531354",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "id": 55683196,
+        "number": 174,
+        "title": "14 -- Almost-Lodash -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-27T22:21:15Z",
+        "updated_at": "2015-01-27T22:25:57Z",
+        "closed_at": null,
+        "body": "* [ ] _WIP Issue:_ `14 -- Almost Lodash` with:\r\n  * [ ] link to your PR from your _WIP Branch_ to `master`\r\n  * [ ] comment with at least two `answer()` results from `scripts/gymnastics.js`\r\n*  [ ] _WIP Branch:_ `feature/14--almost-lodash` with:\r\n  * [ ] `scripts/check-writing.js`\r\n    * [ ] using array lookups instead of `if`-`return` chains\r\n    *  [ ]tests covering up to `20`\r\n  * [ ] `scripts/string-calculator.js`\r\n    * [ ] using dictionary lookups instead of `if`-`return` chains\r\n    * [ ] tests covering from `plus(\"zero\", \"zero\")` to `plus(\"ten\", \"ten\")`\r\n  * [ ] commits to `scripts/gymnastics.js`\r\n  * [ ] commits to `apis/github/users/USERNAME/events.json`\r\n* [ ] PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`\r\n  * [ ] with 2x :+1:'s from peers"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71741306",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/174#issuecomment-71741306",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "id": 71741306,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T22:25:57Z",
+        "updated_at": "2015-01-27T22:25:57Z",
+        "body": "https://github.com/johnalxndr/TIY-Assignments/pull/15"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:25:59Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540530428",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 15,
+      "pull_request": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15",
+        "id": 28150403,
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/15",
+        "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/15.diff",
+        "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/15.patch",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/15",
+        "number": 15,
+        "state": "open",
+        "locked": false,
+        "title": "14-Almost-Lodash/PR",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-27T22:25:35Z",
+        "updated_at": "2015-01-27T22:25:35Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15/commits",
+        "review_comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15/comments",
+        "review_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/15/comments",
+        "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/ff9970a11db45fc41f23e948e8b3235cf047c25b",
+        "head": {
+          "label": "johnalxndr:feature/14--almost-lodash",
+          "ref": "feature/14--almost-lodash",
+          "sha": "ff9970a11db45fc41f23e948e8b3235cf047c25b",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-27T22:07:41Z",
+            "pushed_at": "2015-01-27T22:24:33Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 27308,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "johnalxndr:master",
+          "ref": "master",
+          "sha": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-27T22:07:41Z",
+            "pushed_at": "2015-01-27T22:24:33Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 27308,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15"
+          },
+          "html": {
+            "href": "https://github.com/johnalxndr/TIY-Assignments/pull/15"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/15"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/15/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/15/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/ff9970a11db45fc41f23e948e8b3235cf047c25b"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 2,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:25:35Z"
+  },
+  {
+    "id": "2540527738",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/14--almost-lodash",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:24:33Z"
+  },
+  {
+    "id": "2540519871",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/174/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/174",
+        "id": 55683196,
+        "number": 174,
+        "title": "14 -- Almost-Lodash -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-27T22:21:15Z",
+        "updated_at": "2015-01-27T22:21:15Z",
+        "closed_at": null,
+        "body": "# 14 -- Hello... Well, almost Lodash.\r\n\r\n## Description\r\n\r\n### Coding Dojos\r\n\r\nIf you haven't completed your **Check Writing** kata refactored to `Array` lookup or your tests are still commented out, fix that first! If you've already completed that refactor, work your way up to `20`... then help the others get there.\r\n\r\nUsing the technique that I showed you in class, refactor your production code for **String Calculator** to use dictionary lookups. Make sure you've got tests for `\"zero\"` through `\"ten\"` for _both_ inputs and that _all_ the tests pass!\r\n\r\n### API Gymnastics\r\n\r\nSo here we are again, learning to roll and flip. Don't hurt yourself and work as a team!\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ...,    // How many total events did you fetch?\r\n    'PushEvent': {\r\n      'total': ...,  // How many total events of type `PushEvent` are there?\r\n      'perDay': ...  // On average, how many `PushEvent` entries per day?\r\n    },\r\n    'other': {\r\n      'total': ...,  // How many _other_ events are in the data?\r\n      'perDay': ...  // How many per day, on average?\r\n    }\r\n  };\r\n} // END answer\r\n```\r\n\r\nOutput your answers and paste them as a comment into your _WIP Issue_.  Then, update your `events.json` file with fresh data and run your code again. Then start working on _this_ set of answers:\r\n\r\n```javascript\r\nfunction answer(){\r\n  return {\r\n    'total': ... // `Number` of unique entries\r\n    'types': [ ... ], // `Array` of `String`: unique type names across all entries\r\n    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `\"PushEvent\"`\r\n      'total': ..., // `Number` of entries of this type\r\n      'perDay': { // breakdown by day...\r\n        'avg': ..., // `Number`: average per day\r\n        'max': ..., // `Number`: maximum per day\r\n        'min': ..., // `Number`: minimum per day\r\n      },\r\n    },\r\n    // . . .\r\n  };\r\n}\r\n```\r\n\r\n#### NIGHTMARE MODE\r\n\r\nThe data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_\r\n\r\n### Tools on... Tomorrow\r\n\r\nTomorrow we'll review [the Lodash library](http://lodash.com) and cover our new tools.\r\n\r\n\r\n\r\n## Additional Resources\r\n\r\n* [_Abstract Data Types_ on Wikipedia](http://en.wikipedia.org/wiki/Abstract_data_type)\r\n  * [_Dictionary_ data type on Wikipedia](http://en.wikipedia.org/wiki/Associative_array)\r\n  * [_List_ data type on Wikipedia](http://en.wikipedia.org/wiki/List_%28abstract_data_type%29)\r\n  * [_Queue_ data type on Wikipedia](http://en.wikipedia.org/wiki/Queue_(abstract_data_type))\r\n  * [_Stack_ data type on Wikipedia](http://en.wikipedia.org/wiki/Stack_(abstract_data_type))\r\n* [_Data Science_ on Wikipedia](http://en.wikipedia.org/wiki/Data_science)\r\n* [_Getting Started with Data Science_ by Hilary Mason](http://www.hilarymason.com/blog/getting-started-with-data-science/)"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:21:16Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540487256",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557856709,
+      "size": 16,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+      "before": "a157cb0d043b089a684c3eff995547d9b70d125d",
+      "commits": [
+        {
+          "sha": "fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "change",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/fc1423963539ae6f16e760ecf47c161ed2d6d0a4"
+        },
+        {
+          "sha": "1308d075846fe7548a8c2a9b9d8a2c396d57cfdd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "json file added with directories",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/1308d075846fe7548a8c2a9b9d8a2c396d57cfdd"
+        },
+        {
+          "sha": "0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "all my data bro",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd"
+        },
+        {
+          "sha": "5e26eb4147ed2333ba9ba2f1a43428abe450da0b",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "diagramming toEnglish",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/5e26eb4147ed2333ba9ba2f1a43428abe450da0b"
+        },
+        {
+          "sha": "40c70b31d799a4758107e92fd066aa12c4d4dbc1",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "playin with chess board",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/40c70b31d799a4758107e92fd066aa12c4d4dbc1"
+        },
+        {
+          "sha": "cff1bd71622edd1b784b14e02b51091db2dd69a5",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "check-writing passed test using array",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/cff1bd71622edd1b784b14e02b51091db2dd69a5"
+        },
+        {
+          "sha": "32e03822304ca52ea54d5ba6172767e4b25e3f2c",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "first iterator documented",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/32e03822304ca52ea54d5ba6172767e4b25e3f2c"
+        },
+        {
+          "sha": "8b67fbe504e49d26f4e0a68579df07fe310c22b7",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "check writing updated",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/8b67fbe504e49d26f4e0a68579df07fe310c22b7"
+        },
+        {
+          "sha": "f7f1550969d3d41e9d96ce6657d461dc355fafef",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "few more, taking forever",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/f7f1550969d3d41e9d96ce6657d461dc355fafef"
+        },
+        {
+          "sha": "2cd11e381c5efad2464dc7e2e1f620c09892fef4",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "few more documented",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/2cd11e381c5efad2464dc7e2e1f620c09892fef4"
+        },
+        {
+          "sha": "e7354e7e4c4a9050c928b06ddbf064228e780eec",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "documentation completed finally",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e7354e7e4c4a9050c928b06ddbf064228e780eec"
+        },
+        {
+          "sha": "e14878838654a826498774caab05e897792475c2",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "gymnastics.js added",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e14878838654a826498774caab05e897792475c2"
+        },
+        {
+          "sha": "0c8c4ddf7b1975917083c2bbcbcbef03b38ee5b0",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "changes from lecture to gymnastics.js file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/0c8c4ddf7b1975917083c2bbcbcbef03b38ee5b0"
+        },
+        {
+          "sha": "2325cdfbda89569026e0994a114524e20ed875e6",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "making progress gymnastics",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/2325cdfbda89569026e0994a114524e20ed875e6"
+        },
+        {
+          "sha": "9877f18a1ee0d95af74596801271f985c1994a95",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "pushevent number found",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/9877f18a1ee0d95af74596801271f985c1994a95"
+        },
+        {
+          "sha": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "tried and broke fixed back",
+          "distinct": false,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e8b2a42f7057b095cafd14c1057e04afa551d5cd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:07:42Z"
+  },
+  {
+    "id": "2540487251",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 14,
+      "pull_request": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14",
+        "id": 28057714,
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14",
+        "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.diff",
+        "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.patch",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14",
+        "number": 14,
+        "state": "closed",
+        "locked": false,
+        "title": "change for a PR",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-26T20:32:05Z",
+        "updated_at": "2015-01-27T22:07:41Z",
+        "closed_at": "2015-01-27T22:07:41Z",
+        "merged_at": "2015-01-27T22:07:41Z",
+        "merge_commit_sha": "9b9905bd8ea434ecaf3f7164f6d2b53ad411efc0",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/commits",
+        "review_comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/comments",
+        "review_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/comments",
+        "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+        "head": {
+          "label": "johnalxndr:feature/13--lists+dicts",
+          "ref": "feature/13--lists+dicts",
+          "sha": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-27T22:07:41Z",
+            "pushed_at": "2015-01-27T22:07:41Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 27308,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "johnalxndr:master",
+          "ref": "master",
+          "sha": "a157cb0d043b089a684c3eff995547d9b70d125d",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-27T22:07:41Z",
+            "pushed_at": "2015-01-27T22:07:41Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 27308,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14"
+          },
+          "html": {
+            "href": "https://github.com/johnalxndr/TIY-Assignments/pull/14"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/e8b2a42f7057b095cafd14c1057e04afa551d5cd"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 2,
+        "review_comments": 0,
+        "commits": 16,
+        "additions": 3034,
+        "deletions": 178,
+        "changed_files": 6
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:07:42Z"
+  },
+  {
+    "id": "2540485202",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557855872,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+      "before": "9877f18a1ee0d95af74596801271f985c1994a95",
+      "commits": [
+        {
+          "sha": "e8b2a42f7057b095cafd14c1057e04afa551d5cd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "tried and broke fixed back",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e8b2a42f7057b095cafd14c1057e04afa551d5cd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T22:06:49Z"
+  },
+  {
+    "id": "2540313202",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557786265,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "9877f18a1ee0d95af74596801271f985c1994a95",
+      "before": "e7354e7e4c4a9050c928b06ddbf064228e780eec",
+      "commits": [
+        {
+          "sha": "e14878838654a826498774caab05e897792475c2",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "gymnastics.js added",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e14878838654a826498774caab05e897792475c2"
+        },
+        {
+          "sha": "0c8c4ddf7b1975917083c2bbcbcbef03b38ee5b0",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "changes from lecture to gymnastics.js file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/0c8c4ddf7b1975917083c2bbcbcbef03b38ee5b0"
+        },
+        {
+          "sha": "2325cdfbda89569026e0994a114524e20ed875e6",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "making progress gymnastics",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/2325cdfbda89569026e0994a114524e20ed875e6"
+        },
+        {
+          "sha": "9877f18a1ee0d95af74596801271f985c1994a95",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "pushevent number found",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/9877f18a1ee0d95af74596801271f985c1994a95"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:57:06Z"
+  },
+  {
+    "id": "2539581166",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 27828455,
+      "name": "jgarcia99/TIY-Assignments",
+      "url": "https://api.github.com/repos/jgarcia99/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/19",
+        "labels_url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/19/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/19/comments",
+        "events_url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/19/events",
+        "html_url": "https://github.com/jgarcia99/TIY-Assignments/pull/19",
+        "id": 55563271,
+        "number": 19,
+        "title": "Feature/13  lists+dicts",
+        "user": {
+          "login": "jgarcia99",
+          "id": 9021659,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9021659?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jgarcia99",
+          "html_url": "https://github.com/jgarcia99",
+          "followers_url": "https://api.github.com/users/jgarcia99/followers",
+          "following_url": "https://api.github.com/users/jgarcia99/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jgarcia99/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jgarcia99/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jgarcia99/subscriptions",
+          "organizations_url": "https://api.github.com/users/jgarcia99/orgs",
+          "repos_url": "https://api.github.com/users/jgarcia99/repos",
+          "events_url": "https://api.github.com/users/jgarcia99/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jgarcia99/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-27T01:27:26Z",
+        "updated_at": "2015-01-27T16:12:55Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/pulls/19",
+          "html_url": "https://github.com/jgarcia99/TIY-Assignments/pull/19",
+          "diff_url": "https://github.com/jgarcia99/TIY-Assignments/pull/19.diff",
+          "patch_url": "https://github.com/jgarcia99/TIY-Assignments/pull/19.patch"
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/157"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/comments/71674769",
+        "html_url": "https://github.com/jgarcia99/TIY-Assignments/pull/19#issuecomment-71674769",
+        "issue_url": "https://api.github.com/repos/jgarcia99/TIY-Assignments/issues/19",
+        "id": 71674769,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T16:12:55Z",
+        "updated_at": "2015-01-27T16:12:55Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:12:55Z"
+  },
+  {
+    "id": "2539562039",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 27850513,
+      "name": "jrutishauser/TIY-Assignments",
+      "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16",
+        "labels_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/comments",
+        "events_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16/events",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16",
+        "id": 55568686,
+        "number": 16,
+        "title": "ALWAYS COMING FROM TAKE ME DOWN --- what are the opposites? :trollface:",
+        "user": {
+          "login": "jrutishauser",
+          "id": 9681094,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9681094?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jrutishauser",
+          "html_url": "https://github.com/jrutishauser",
+          "followers_url": "https://api.github.com/users/jrutishauser/followers",
+          "following_url": "https://api.github.com/users/jrutishauser/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jrutishauser/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jrutishauser/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jrutishauser/subscriptions",
+          "organizations_url": "https://api.github.com/users/jrutishauser/orgs",
+          "repos_url": "https://api.github.com/users/jrutishauser/repos",
+          "events_url": "https://api.github.com/users/jrutishauser/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jrutishauser/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-27T02:43:56Z",
+        "updated_at": "2015-01-27T16:06:17Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/pulls/16",
+          "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16",
+          "diff_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16.diff",
+          "patch_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/comments/71673523",
+        "html_url": "https://github.com/jrutishauser/TIY-Assignments/pull/16#issuecomment-71673523",
+        "issue_url": "https://api.github.com/repos/jrutishauser/TIY-Assignments/issues/16",
+        "id": 71673523,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T16:06:17Z",
+        "updated_at": "2015-01-27T16:06:17Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:06:17Z"
+  },
+  {
+    "id": "2539457608",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28673988,
+      "name": "GarrettGraham/TIY-Assignments",
+      "url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/11",
+        "labels_url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/11/labels{/name}",
+        "comments_url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/11/comments",
+        "events_url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/11/events",
+        "html_url": "https://github.com/GarrettGraham/TIY-Assignments/pull/11",
+        "id": 55536922,
+        "number": 11,
+        "title": "13--dem+Lists+dicts",
+        "user": {
+          "login": "GarrettGraham",
+          "id": 10319852,
+          "avatar_url": "https://avatars.githubusercontent.com/u/10319852?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GarrettGraham",
+          "html_url": "https://github.com/GarrettGraham",
+          "followers_url": "https://api.github.com/users/GarrettGraham/followers",
+          "following_url": "https://api.github.com/users/GarrettGraham/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GarrettGraham/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GarrettGraham/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GarrettGraham/subscriptions",
+          "organizations_url": "https://api.github.com/users/GarrettGraham/orgs",
+          "repos_url": "https://api.github.com/users/GarrettGraham/repos",
+          "events_url": "https://api.github.com/users/GarrettGraham/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GarrettGraham/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-26T21:02:03Z",
+        "updated_at": "2015-01-27T15:29:55Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/pulls/11",
+          "html_url": "https://github.com/GarrettGraham/TIY-Assignments/pull/11",
+          "diff_url": "https://github.com/GarrettGraham/TIY-Assignments/pull/11.diff",
+          "patch_url": "https://github.com/GarrettGraham/TIY-Assignments/pull/11.patch"
+        },
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/163"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/comments/71666576",
+        "html_url": "https://github.com/GarrettGraham/TIY-Assignments/pull/11#issuecomment-71666576",
+        "issue_url": "https://api.github.com/repos/GarrettGraham/TIY-Assignments/issues/11",
+        "id": 71666576,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-27T15:29:55Z",
+        "updated_at": "2015-01-27T15:29:55Z",
+        "body": ":+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T15:29:55Z"
+  },
+  {
+    "id": "2539074653",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557280727,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "e7354e7e4c4a9050c928b06ddbf064228e780eec",
+      "before": "2cd11e381c5efad2464dc7e2e1f620c09892fef4",
+      "commits": [
+        {
+          "sha": "e7354e7e4c4a9050c928b06ddbf064228e780eec",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "documentation completed finally",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/e7354e7e4c4a9050c928b06ddbf064228e780eec"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T12:44:54Z"
+  },
+  {
+    "id": "2538418830",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557012363,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "2cd11e381c5efad2464dc7e2e1f620c09892fef4",
+      "before": "f7f1550969d3d41e9d96ce6657d461dc355fafef",
+      "commits": [
+        {
+          "sha": "2cd11e381c5efad2464dc7e2e1f620c09892fef4",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "few more documented",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/2cd11e381c5efad2464dc7e2e1f620c09892fef4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T06:26:28Z"
+  },
+  {
+    "id": "2538392938",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 557001583,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "f7f1550969d3d41e9d96ce6657d461dc355fafef",
+      "before": "8b67fbe504e49d26f4e0a68579df07fe310c22b7",
+      "commits": [
+        {
+          "sha": "f7f1550969d3d41e9d96ce6657d461dc355fafef",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "few more, taking forever",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/f7f1550969d3d41e9d96ce6657d461dc355fafef"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T06:03:37Z"
+  },
+  {
+    "id": "2538345743",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556981827,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "8b67fbe504e49d26f4e0a68579df07fe310c22b7",
+      "before": "cff1bd71622edd1b784b14e02b51091db2dd69a5",
+      "commits": [
+        {
+          "sha": "32e03822304ca52ea54d5ba6172767e4b25e3f2c",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "first iterator documented",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/32e03822304ca52ea54d5ba6172767e4b25e3f2c"
+        },
+        {
+          "sha": "8b67fbe504e49d26f4e0a68579df07fe310c22b7",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "check writing updated",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/8b67fbe504e49d26f4e0a68579df07fe310c22b7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T05:20:29Z"
+  },
+  {
+    "id": "2537755446",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556747599,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "cff1bd71622edd1b784b14e02b51091db2dd69a5",
+      "before": "5e26eb4147ed2333ba9ba2f1a43428abe450da0b",
+      "commits": [
+        {
+          "sha": "40c70b31d799a4758107e92fd066aa12c4d4dbc1",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "playin with chess board",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/40c70b31d799a4758107e92fd066aa12c4d4dbc1"
+        },
+        {
+          "sha": "cff1bd71622edd1b784b14e02b51091db2dd69a5",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "check-writing passed test using array",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/cff1bd71622edd1b784b14e02b51091db2dd69a5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T22:47:20Z"
+  },
+  {
+    "id": "2537634431",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556700388,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "5e26eb4147ed2333ba9ba2f1a43428abe450da0b",
+      "before": "0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd",
+      "commits": [
+        {
+          "sha": "5e26eb4147ed2333ba9ba2f1a43428abe450da0b",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "diagramming toEnglish",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/5e26eb4147ed2333ba9ba2f1a43428abe450da0b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T21:55:38Z"
+  },
+  {
+    "id": "2537517685",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556653720,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd",
+      "before": "1308d075846fe7548a8c2a9b9d8a2c396d57cfdd",
+      "commits": [
+        {
+          "sha": "0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "all my data bro",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/0d0e340dd1b1ef0d742d5a087f3e37664d1f42fd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T21:08:27Z"
+  },
+  {
+    "id": "2537497022",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556645419,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "1308d075846fe7548a8c2a9b9d8a2c396d57cfdd",
+      "before": "fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+      "commits": [
+        {
+          "sha": "1308d075846fe7548a8c2a9b9d8a2c396d57cfdd",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "json file added with directories",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/1308d075846fe7548a8c2a9b9d8a2c396d57cfdd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T21:00:12Z"
+  },
+  {
+    "id": "2537462564",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "id": 55533032,
+        "number": 159,
+        "title": "13 -- Lists+Dicts -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-01-26T20:28:47Z",
+        "updated_at": "2015-01-26T20:45:56Z",
+        "closed_at": null,
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71534680",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159#issuecomment-71534680",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "id": 71534680,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:45:56Z",
+        "updated_at": "2015-01-26T20:45:56Z",
+        "body": "* [ ] **Yak Shaving**--M\r\n    * Create your _WIP Issue_ named `13 -- Lists + Dicts` with tasks _and estimates!_\r\n    * Merge your PR, update your local `master`, and open a new branch: `feature/13--lists+dicts`\r\n    * Create a new file in `apis/github/users/USERNAME/events.json` where `USERNAME` is... you get it.\r\n    * Use [`curl`](http://curl.haxx.se/docs/manpage.html) or [Postman](http://www.getpostman.com/) to fetch [your public events from the Github API](https://developer.github.com/v3/activity/events/#list-public-events-performed-by-a-user)\r\n    * Commit, push, and open a PR!\r\n* [ ] **Take a Picture**\r\n* [ ] **One More Time...**--L\r\n    * [ ] Checkpoint: **String Calculator** with `if` and `return` (no `else`)\r\n    * [ ] Checkpoint: **Check Writing** refactored to `fromEnglish()`\r\n    * [ ] Checkpoint: **Check Writing** refactored `fromEnglish()` to use _at least one_ lookup!\r\n    * [ ] Checkpoint: **Check Writing** with 100% `Array` lookups instead of `if`\r\n    * [ ] Mission Complete\r\n* [ ] **Reading JavaScript**--XL\r\n    * [ ] Checkpoint: Let's talk about `forEach`... a lot.\r\n    * [ ] Checkpoint: Here's that `every()` and `some()` crowd again.\r\n    * [ ] Checkpoint: Who needs a `filter()` anyway?\r\n    * [ ] Checkpoint: Can I get a `map()` over here?\r\n    * [ ] Checkpoint: I wish I could `reduce()` this assignment...\r\n    * [ ] Checkpoint: Am I `reduceRight()`...?\r\n    * [ ] Mission Complete!\r\n* [ ] **API Gymnastics**--XL\r\n    * [ ] Checkpoint: Got me some data...\r\n    * [ ] Checkpoint: Count it up right...\r\n    * [ ] Checkpoint: Filtering out just the `PushEvent` entries...\r\n    * [ ] Checkpoint: Now doing the complete opposite...\r\n    * [ ] Checkpoint: I have all the `answers` now!\r\n    * [ ] Mission Complete"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:45:56Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2537431627",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14",
+        "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/labels{/name}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/comments",
+        "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/events",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14",
+        "id": 55533428,
+        "number": 14,
+        "title": "change for a PR",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-26T20:32:05Z",
+        "updated_at": "2015-01-26T20:32:37Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14",
+          "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14",
+          "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.diff",
+          "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/71532533",
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14#issuecomment-71532533",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14",
+        "id": 71532533,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:32:36Z",
+        "updated_at": "2015-01-26T20:32:36Z",
+        "body": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:32:37Z"
+  },
+  {
+    "id": "2537431342",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "id": 55533032,
+        "number": 159,
+        "title": "13 -- Lists+Dicts -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-01-26T20:28:47Z",
+        "updated_at": "2015-01-26T20:32:30Z",
+        "closed_at": null,
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/71532517",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159#issuecomment-71532517",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "id": 71532517,
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-26T20:32:30Z",
+        "updated_at": "2015-01-26T20:32:30Z",
+        "body": "https://github.com/johnalxndr/TIY-Assignments/pull/14"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:32:30Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2537430363",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 14,
+      "pull_request": {
+        "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14",
+        "id": 28057714,
+        "html_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14",
+        "diff_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.diff",
+        "patch_url": "https://github.com/johnalxndr/TIY-Assignments/pull/14.patch",
+        "issue_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14",
+        "number": 14,
+        "state": "open",
+        "locked": false,
+        "title": "change for a PR",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-01-26T20:32:05Z",
+        "updated_at": "2015-01-26T20:32:05Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/commits",
+        "review_comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/comments",
+        "review_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/comments",
+        "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+        "head": {
+          "label": "johnalxndr:feature/13--lists+dicts",
+          "ref": "feature/13--lists+dicts",
+          "sha": "fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-26T20:18:33Z",
+            "pushed_at": "2015-01-26T20:31:39Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 24572,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "johnalxndr:master",
+          "ref": "master",
+          "sha": "a157cb0d043b089a684c3eff995547d9b70d125d",
+          "user": {
+            "login": "johnalxndr",
+            "id": 9056270,
+            "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/johnalxndr",
+            "html_url": "https://github.com/johnalxndr",
+            "followers_url": "https://api.github.com/users/johnalxndr/followers",
+            "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+            "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+            "repos_url": "https://api.github.com/users/johnalxndr/repos",
+            "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 28044438,
+            "name": "TIY-Assignments",
+            "full_name": "johnalxndr/TIY-Assignments",
+            "owner": {
+              "login": "johnalxndr",
+              "id": 9056270,
+              "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/johnalxndr",
+              "html_url": "https://github.com/johnalxndr",
+              "followers_url": "https://api.github.com/users/johnalxndr/followers",
+              "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+              "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+              "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+              "repos_url": "https://api.github.com/users/johnalxndr/repos",
+              "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments",
+            "forks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/forks",
+            "keys_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/teams",
+            "hooks_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/hooks",
+            "issue_events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/events",
+            "assignees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/tags",
+            "blobs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/languages",
+            "stargazers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/stargazers",
+            "contributors_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contributors",
+            "subscribers_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscribers",
+            "subscription_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/subscription",
+            "commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/merges",
+            "archive_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/downloads",
+            "issues_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/labels{/name}",
+            "releases_url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/releases{/id}",
+            "created_at": "2014-12-15T16:08:13Z",
+            "updated_at": "2015-01-26T20:18:33Z",
+            "pushed_at": "2015-01-26T20:31:39Z",
+            "git_url": "git://github.com/johnalxndr/TIY-Assignments.git",
+            "ssh_url": "git@github.com:johnalxndr/TIY-Assignments.git",
+            "clone_url": "https://github.com/johnalxndr/TIY-Assignments.git",
+            "svn_url": "https://github.com/johnalxndr/TIY-Assignments",
+            "homepage": "",
+            "size": 24572,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14"
+          },
+          "html": {
+            "href": "https://github.com/johnalxndr/TIY-Assignments/pull/14"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/issues/14/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/pulls/14/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/johnalxndr/TIY-Assignments/statuses/fc1423963539ae6f16e760ecf47c161ed2d6d0a4"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:32:05Z"
+  },
+  {
+    "id": "2537429395",
+    "type": "PushEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "push_id": 556618990,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/13--lists+dicts",
+      "head": "fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+      "before": "a157cb0d043b089a684c3eff995547d9b70d125d",
+      "commits": [
+        {
+          "sha": "fc1423963539ae6f16e760ecf47c161ed2d6d0a4",
+          "author": {
+            "email": "jalexander788@gmail.com",
+            "name": "John Alexander"
+          },
+          "message": "change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments/commits/fc1423963539ae6f16e760ecf47c161ed2d6d0a4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:31:39Z"
+  },
+  {
+    "id": "2537424955",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 28044438,
+      "name": "johnalxndr/TIY-Assignments",
+      "url": "https://api.github.com/repos/johnalxndr/TIY-Assignments"
+    },
+    "payload": {
+      "ref": "feature/13--lists+dicts",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:29:47Z"
+  },
+  {
+    "id": "2537422760",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 9056270,
+      "login": "johnalxndr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnalxndr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9056270?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/159/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/159",
+        "id": 55533032,
+        "number": 159,
+        "title": "13 -- Lists+Dicts -- John Alexander",
+        "user": {
+          "login": "johnalxndr",
+          "id": 9056270,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9056270?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/johnalxndr",
+          "html_url": "https://github.com/johnalxndr",
+          "followers_url": "https://api.github.com/users/johnalxndr/followers",
+          "following_url": "https://api.github.com/users/johnalxndr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/johnalxndr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/johnalxndr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/johnalxndr/subscriptions",
+          "organizations_url": "https://api.github.com/users/johnalxndr/orgs",
+          "repos_url": "https://api.github.com/users/johnalxndr/repos",
+          "events_url": "https://api.github.com/users/johnalxndr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/johnalxndr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-26T20:28:47Z",
+        "updated_at": "2015-01-26T20:28:47Z",
+        "closed_at": null,
+        "body": ""
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-26T20:28:47Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  }
+]
