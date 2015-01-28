@@ -2,40 +2,69 @@ var assert = require('assert');
 
 var events = require('../apis/github/users/johnalxndr/events.json');
 
-it('should have events', function(){
-    assert(events)
-});
-
 function answer(){
     var pushEvents = events.filter(function(item){
-        return item.type == 'PushEvent'; 
+        return item.type == 'PushEvent';
+    });
+    var pullRequests = events.filter(function(item){
+        return item.type == 'PullRequestEvent';
     });
 
     return { 
         'total': events.length,
-        'PushEvent':{'total': pushEvents.length} 
+        'PushEvent': {
+            'total': pushEvents.length,
+            }
+        'PullRequestEvent': {
+        'total': pullRequests.length,
+    },
+        'IssueCommmentEvent': {
+        'total': issueComment.length,
+        }
+    };
 };
-}
 
 console.log(answer());
 var theAnswer = answer();
 
-    it('should return that answer exists, and test for total events', function() {
-        assert(answer);
-        assert(events.length === 30);
-        
+it('should have events', function(){
+    assert(events);
+});
+it('should have function answer', function(){
+    assert(answer);
+});
+it('should return the length when calling answer function', function(){
+    assert.equal(theAnswer.total, 30);
     });
+    
+it('should return "PushEvent",and has a total count of PushedEvents', function(){
+    assert(theAnswer.PushEvent);
+    assert(theAnswer.PushEvent.total);
+    });
+    
+//function answer(){
+//  return {
+//    'total': ... // `Number` of unique entries
+//    'types': [ ... ], // `Array` of `String`: unique type names across all entries
+//    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `"PushEvent"`
+//      'total': ..., // `Number` of entries of this type
+//      'perDay': { // breakdown by day...
+//        'avg': ..., // `Number`: average per day
+//        'max': ..., // `Number`: maximum per day
+//        'min': ..., // `Number`: minimum per day
+//      },
+//    },
+//    // . . .
+//  };
+//}   
 
-    it('should return the length when calling answer function', function(){
-        assert.equal(theAnswer.total, 30);
-    });
-    
-    it('should return "PushEvent",and has a total count of PushedEvents', function(){
-        assert(theAnswer.PushEvent);
-        assert(theAnswer.PushEvent.total);
-    });
-    
-    
+
+
+
+
+
+
+
 
 //old stuff
 
