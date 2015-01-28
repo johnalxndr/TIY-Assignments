@@ -1,0 +1,23 @@
+{
+  "name": "TIY-Assignments",
+  "version": "1.0.0",
+  "description": "Class repo for FEE 2015 Spring at TIY",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnalxndr/TIY-Assignments.git"
+  },
+  "author": "\"John Alexander\"",
+  "license": "\"CC0\"",
+  "bugs": {
+    "url": "https://github.com/johnalxndr/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/johnalxndr/TIY-Assignments"
+}
