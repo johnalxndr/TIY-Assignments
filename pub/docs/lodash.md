@@ -41,3 +41,28 @@
   * `Function`|`Object` The object of property values to match.
 * _returns:_
   * (Array): Returns the new filtered array.
+
+### ['_.chunk'](https://lodash.com/docs#chunk)
+
+* _params:_
+  * `Array`: the array to process
+  * `Function`|`Object` The object of property values to match.
+* _returns:_
+  * (Array): Returns the new array containing chunks.
+  
+### ['_.compact'](https://lodash.com/docs#compact)
+creates an array with all falsey values removed. 
+
+* _arguments:_
+  * 'Array: The array to compact 
+* _returns:_
+  * 'Array': Returns the new array of filtered values 
+  
+### ['_.difference'](https://lodash.com/docs#difference)
+creates an array excluding all values of the provided arrays using 'SameValueZero' for equality comparisons.
+
+* _arguments:_
+  * 'Array': the array to inspect
+  * 'Values': the arrays of values to exclude
+* _Returns: Returns the new array of filtered values.
+  
