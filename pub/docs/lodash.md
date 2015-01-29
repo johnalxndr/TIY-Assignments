@@ -32,3 +32,12 @@
 * _differences:_
   * not just for `Array`; can be run with `Object` and `String` as `collection`
   * `predicate` can be `Object` or `String`...?
+  
+
+### ['_.where'](https://lodash.com/docs#where)
+
+* _params:_
+  * `Array` |`Object` |`String` `collection` to search
+  * `Function`|`Object` The object of property values to match.
+* _returns:_
+  * (Array): Returns the new filtered array.
