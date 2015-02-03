@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -71,14 +72,21 @@ tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at</p>
         <script>
         function showMe(){
             
-            var className = this.nextElementSibling.className;
+//            var className = this.nextElementSibling.className;
             if(className != "open"){
                 this.nextElementSibling.className = "open";
             } else {
                 this.nextElementSibling.className = "closed";
             }
         }
-        var 
+        var h2s = document.getElementsByTagName('h2');
+            for(var index=0; index < h2s.length; index++){
+                h2s[index].onclick = showMe;
+            }
+        var h3s = document.getElementsByTagName('h3');
+            for(var index=0; index < h3s.length; index++){
+                h3s[index].onclick = showMe;
+            }
         </script>
         
         

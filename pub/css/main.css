@@ -98,15 +98,58 @@ textarea {
    ========================================================================== */
     .container{
         width:80%;
+        margin: 0 auto;
+        
     }
     h2{
         border-bottom: 2px solid #b9b9b9; 
         padding-bottom: .5em;
-        font-size: 3em;
+        font-size: 2.5em;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
     }
-    
+    h3{
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+    }
     h3 > a:hover{
         text-decoration: none;
+    }
+    h2 > a::before{
+        content: "\2799";
+        color:#cecece;
+        padding-right: 1ex;
+    }
+    h2 > a:hover:before{
+        content:"\2798";
+    }
+    p{
+        color: #888;
+        font-family: 'Lato', sans-serif;
+    }
+    article{
+        display: none
+    }
+    article h3, article article {
+    width: 95%;
+    margin: 0 auto;
+}
+    article h3:before{
+    content: "\2799";
+    color: grey;
+    display: inline-block;
+    padding-right: .5em;
+    width: 1em;
+}
+    article h3:hover:before {
+    content: "\2798";
+    padding-right: .5em;
+    display: inline-block;
+    width: 1em;
+}
+    .open{
+        display: block;
     }
 
 
