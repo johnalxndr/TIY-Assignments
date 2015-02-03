@@ -105,7 +105,12 @@ textarea {
     border: 5px solid white;
     background-color:#47A3DA
 }
-
+.form-control::-webkit-input-placeholder{
+    color:#2e4baa
+}
+.button{
+    text-align:center;
+}
 
 
 
