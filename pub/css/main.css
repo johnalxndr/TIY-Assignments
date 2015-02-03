@@ -96,35 +96,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
- h2 {
-    border-bottom: 1px solid gray;
-    padding-bottom: 1ex;
-}
-h2 > a {
-    text-decoration: none;
-    color: blue;
-}
-h2 > a:before {
-    content: '\2799';
-    padding-right: 0.5em;
-    color: gray;
-    display: inline-block;
-    width: 1em;
-}
-h2 > a:hover:before{
-    content: '\2798';
-    color: blue;
-}
-h2 + article {
-    display:none;
-}
-h2.open + article {
-    display:block;
-}
-/*h2.open > a:before {*/
-    content: '\2796';
-    color: blue;
-}
+    .container{
+        width:80%;
+    }
+    h2{
+        border-bottom: 2px solid #b9b9b9; 
+        padding-bottom: .5em;
+        font-size: 3em;
+    }
+    
+    h3 > a:hover{
+        text-decoration: none;
+    }
 
 
 
