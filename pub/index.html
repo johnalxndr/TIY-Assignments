@@ -78,13 +78,13 @@ tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at</p>
           this.nextElementSibling.className = 'open';
           } 
         };     
-        var articleHeadings = document.getElementsByTagName('h2');
+        var articleHeading = document.getElementsByTagName('h2');
  
  for (var index = 0; index < articleHeadings.length; index++){
          articleHeadings[index].onclick = clickToShow;
  }
  
- var subArticleHeadings = document.getElementsByTagName('h3');
+ var articleSubHeading = document.getElementsByTagName('h3');
 
  for (var index2 = 0; index2 < subArticleHeadings.length; index2++){
          subArticleHeadings[index2].onclick = clickToShow;
