@@ -16,14 +16,17 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
-        <div class="container">
+    <body class="body">
+        
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <form class="form">
+        <div class="container">
+        <div class=" col-md-4 col-sm-6 col-xs-12">
+        
+            <form class="form">
             <div class="form-group">
                 <label for="exampleInputName">FIRST NAME</label>
                 <input type="text" class="form-control" id="exampleInputName" placeholder="INSERT NAME HERE">
@@ -35,20 +38,53 @@
                     <option>THE MOON</option>
                     <option>MARS</option>
                 </select>
-                
+                <label for="form-control">BIOGRAPHY </label>
+                <textarea class="form-control" rows="8"></textarea>
+            </div> <!-------FORM BOX------->
+            </form>  
+        </div> <!------1st COLUMN----------->
+    <div class=" col-md-4 col-sm-6 col-xs-12">    
+            <div class="form-group">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="GIMME THOSE DIGITS">
+                <label for="Affiliations">AFFILIATIONS</label>
+                <textarea class="form-control" rows="8"></textarea>
+                <label for="occupation">OCCUPATION</label>
+                <select class="form-control">
+                    <option>WIZARD</option>
+                    <option>BARBARIAN KING</option>
+                    <option>ARCHER QUEEN</option>
+                </select>
+                <label for="petsName">PETS NAME</label>
+                <input type="text" class="form-control" id="petsName" placeholder="PET'S?">
+                <label for="favGadget">FAVORITE GADGET</label>
+                <input type="text" class="form-control" id="favGadget" placeholder="GADGETS GO HERE">
+            </div>
+       
+    </div> <!------2nd COLUMN---------->
+    <div class=" col-md-4 col-sm-6 col-xs-12">
+            <div clss="form-group">
+                <label for="talentType">TYPE OF TALENT</label>
+                <select class="form-control">
+                    <option>RAGE SPELL</option>
+                    <option>HEALING SPELL</option>
+                    <option>JUMP SPELL</option>
+                </select>
+                <label for="favDrink">FAVORITE DRINK</label>
+                <input type="text" class="form-control" id="favDrink" placeholder="BOOZE ONLY">
+                <label for="power">SPECIAL POWER</label>
+                <input type="text" class="form-control" id="power" placeholder="DO YOU EVEN LIFE BRO">
+                <label for="weapon">WEAPON OF CHOICE</label>
+                <input type="text" class="form-control" id="weapon" placeholder="DO YOUR WORST">
+                <label for="comments">COMMENTS</label>
                 <textarea class="form-control" rows="8"></textarea>
             </div>    
+        </div> <!------3rd COLUMN------->       
+          
+        </div> <!------CONTAINER -------->
         
-            
-            
-        </form>
-            
-
         
-   
-            
-        </div>
-
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
