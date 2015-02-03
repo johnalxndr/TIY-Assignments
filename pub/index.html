@@ -26,7 +26,7 @@
     
         <div class="container">
         
-    <h2 id="tots"><a href="#tots">Japanese tater tots </a></h2>
+    <h2><a href="#">Japanese tater tots </a></h2>
         <article>
         <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
@@ -34,21 +34,21 @@ voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
 kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
 ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at</p>
-            <h3 id="popsicle"><a href="#popsicle">Mustard dipped popsicle</a></h3>
+            <h3><a href="#">Mustard dipped popsicle</a></h3>
                 <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
 voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita</p>
-            <h3 id="poptart"><a href="#poptart">Ketchup filled poptart</a></h3>
+            <h3><a href="#">Ketchup filled poptart</a></h3>
                 <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
 voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita</p>
-            <h3 id="peanuts"><a href="#Peanuts">Sour Peanuts</a></h3>
+            <h3><a href="#">Sour Peanuts</a></h3>
                 <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
 voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita</p>
         </article>
             
-    <h2 id="skittles"><a href="#skittles">Honey dipped red skittles </a></h2>
+    <h2><a href="#">Honey dipped red skittles </a></h2>
         <article>  
         <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
@@ -58,7 +58,7 @@ ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at</p>
         </article> 
         
-    <h2 id="ozzie"><a href="#ozzie">Deep fried Australian salamander</a></h2>
+    <h2><a href="#">Deep fried Australian salamander</a></h2>
         <article> 
         <p>lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
@@ -70,23 +70,48 @@ tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at</p>
        
         </div>
         <script>
-        function showMe(){
+           
+        var clickToShow = function () { 
+          if (this.nextElementSibling.className === 'open'){
+      this.nextElementSibling.className = '';
+          } else if (this.nextElementSibling.className != 'open') { 
+          this.nextElementSibling.className = 'open';
+          } 
+        };     
+        var articleHeadings = document.getElementsByTagName('h2');
+ 
+ for (var index = 0; index < articleHeadings.length; index++){
+         articleHeadings[index].onclick = clickToShow;
+ }
+ 
+ var subArticleHeadings = document.getElementsByTagName('h3');
+
+ for (var index2 = 0; index2 < subArticleHeadings.length; index2++){
+         subArticleHeadings[index2].onclick = clickToShow;
+ }    
             
-//            var className = this.nextElementSibling.className;
-            if(className != "open"){
-                this.nextElementSibling.className = "open";
-            } else {
-                this.nextElementSibling.className = "closed";
-            }
-        }
-        var h2s = document.getElementsByTagName('h2');
-            for(var index=0; index < h2s.length; index++){
-                h2s[index].onclick = showMe;
-            }
-        var h3s = document.getElementsByTagName('h3');
-            for(var index=0; index < h3s.length; index++){
-                h3s[index].onclick = showMe;
-            }
+            
+            
+            
+            
+            
+//        function showMe(){
+//            
+////            var className = this.nextElementSibling.className;
+//            if(className != "open"){
+//                this.nextElementSibling.className = "open";
+//            } else {
+//                this.nextElementSibling.className = "closed";
+//            }
+//        }
+//        var h2s = document.getElementsByTagName('h2');
+//            for(var index=0; index < h2s.length; index++){
+//                h2s[index].onclick = showMe;
+//            }
+//        var h3s = document.getElementsByTagName('h3');
+//            for(var index=0; index < h3s.length; index++){
+//                h3s[index].onclick = showMe;
+//            }
         </script>
         
         

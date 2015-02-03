@@ -105,9 +105,21 @@ textarea {
         border-bottom: 2px solid #b9b9b9; 
         padding-bottom: .5em;
         font-size: 2.5em;
-        text-decoration: none;
         font-family: 'Lato', sans-serif;
         font-weight: 100;
+    }
+    h2 > a{
+        text-decoration: none;
+    }
+    h2 a::before{
+        content: "\2192";
+        color:#cecece;
+        padding-right: 1ex;
+        display:inline-block;
+    }
+    h2 a:hover:before{
+        content:"\2198";
+        text-decoration: none;
     }
     h3{
         font-family: 'Lato', sans-serif;
@@ -115,14 +127,6 @@ textarea {
     }
     h3 > a:hover{
         text-decoration: none;
-    }
-    h2 > a::before{
-        content: "\2799";
-        color:#cecece;
-        padding-right: 1ex;
-    }
-    h2 > a:hover:before{
-        content:"\2798";
     }
     p{
         color: #888;
