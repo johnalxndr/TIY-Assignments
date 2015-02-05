@@ -97,6 +97,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.left-nav{
+    list-style-type:none;
+}
+.left-nav::before{
+    content: 
+}
 
 
 
