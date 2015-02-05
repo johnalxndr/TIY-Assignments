@@ -74,6 +74,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -97,12 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.left-nav{
+li{
     list-style-type:none;
 }
-.left-nav::before{
-    content: 
-}
+
 
 
 
