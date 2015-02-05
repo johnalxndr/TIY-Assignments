@@ -1,0 +1,17 @@
+{
+  "name": "pub",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johnalxndr/TIY-Assignments",
+  "authors": [
+    "John Alexander <jalexander788@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
