@@ -99,6 +99,7 @@ textarea {
    ========================================================================== */
 ul .active{
     border-top: solid 3px #c76235;
+    border-radius: 4px;
 }
 
 li{
