@@ -74,6 +74,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -97,27 +98,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.body{
-    background-color: #47A3DA;
-    color:white;
+li{
+    list-style-type:none;
 }
-.form-control{
-    border: 5px solid white;
-    background-color:#47A3DA
-}
-.form-control::-webkit-input-placeholder{
-    color:#2e4baa;
-}
-.button{
-    text-align:center;
-}
-.btn-lg{
-    background-color:#2e4baa;
-    color:white;
-}
-.form-control.select{
-    color:#2e4baa
-}
+
+
+
+
 
 
 
