@@ -97,6 +97,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ul .active{
+    border-top: solid 3px #c76235;
+}
 
 li{
     list-style-type:none;
@@ -107,6 +110,10 @@ li{
 .popular-repositories > li{
     border-bottom: 1px solid #c7c7c7;
     padding: 1.5ex;
+}
+.popular-repositories i{
+    float:right;
+    color: #999;
 }
 .contributed{
     border: 1px solid #c7c7c7;
@@ -149,6 +156,13 @@ a.navbar-brand{
 }
 .contact li:nth-child(1){
     font-size: 1.5em;
+}
+.popular-repository i{
+    
+}
+.contributed i{
+    float: right;
+    color:#999
 }
 
 
