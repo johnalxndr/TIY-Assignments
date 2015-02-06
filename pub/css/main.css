@@ -117,13 +117,29 @@ li{
 }
 .well{
     text-align: center;
+    clear: both
 }
 .well > a{
     text-decoration: none;
 }
-
-
-
+.profile{
+    list-style: none;
+    position: relative;
+    display: list-item;
+    float:righ
+}
+.profile img{
+    float:left;
+    padding-right:1em;
+    padding-bottom: 1em;
+}
+ul.contact{
+    padding-top: 1em;
+}
+a.navbar-brand{
+    margin-left: 40%;
+    margin-top:-.25em;
+    font-size: 2.5em;
 
 
 
