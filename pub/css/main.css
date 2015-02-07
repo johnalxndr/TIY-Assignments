@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 ul .active{
     border-top: solid 3px #c76235;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 li{
@@ -134,7 +134,6 @@ li{
     list-style: none;
     position: relative;
     display: list-item;
-    float:righ
 }
 .profile img{
     float:left;
