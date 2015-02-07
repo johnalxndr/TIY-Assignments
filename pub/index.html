@@ -36,7 +36,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#"><i class="fa fa-github"></i></a>
-    </div>        
+    </div>
         <!--------top tab bar-------->
         <ul class="nav nav-tabs" role="tablists">
             <li class="active"><a href="#about" role="tab" data-toggle="tab">About</a></li>
@@ -97,30 +97,25 @@
         </div>    
         </div>
         <div class="row second-row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <div class="form">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" id="comment">  </textarea>
-                        </div><!--formgroup-->
-                    </div><!--form-->
-                </div><!--col offset-->           
-            </div><!--classrow-->
-            <div class="row third-row col-sm-offset-8">
-                    <button type="button" class="btn btn-success">Comment</button>
+                
+            
+            <div class="col-sm-6 col-sm-offset-3">
+                    <form id="comments" action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/254/comments?access_token=8299cf4d40242d94cd36eee9a54558bb15d1220e" method="post" enctype="text/plain">    
+            <textarea class="form-control" rows="8" form="comments" id="textbox"></textarea>
+                            
+                    </form>
+                <button type="button" class="btn btn-default" form="comments" value="submit" onclick="makewords()">Submit</button>
             </div>    
+        </div><!--form-->
+                </div><!--col offset-->           
+        </div><!--classrow-->
+            <div class="row third-row col-sm-offset-8">
+                    
             
         </div> <!----Left Column----->
-    
-
-        
-        
-          
-        
-    </div>  <!---Container----->  
-        
-        
-    
-       
+            
+            
+            
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
