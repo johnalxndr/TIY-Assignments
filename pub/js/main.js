@@ -23,5 +23,9 @@ $.get("johnalxndr.json", function(user){
 $.get("johnalxndr.json", function(user){
     $('.contact').find('.email').append(user.email);}, "json");
     
+$.get("johnalxndr.json", function(user){
+    $('.list-inline').find('.followers').append(user.followers);}, "json");
 
+$.get("johnalxndr.json", function(user){
+    $('.list-inline').find('.following').append(user.following);}, "json");    
 });
