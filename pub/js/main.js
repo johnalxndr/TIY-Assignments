@@ -15,10 +15,13 @@ $.get("johnalxndr.json", function(user){
     $('.contact').find('strong').append(user.name);}, "json"); 
     
 $.get("johnalxndr.json", function(user){
-    $('.contact').find('strong').append(user.name);}, "json");
+    $('.contact').find('.username').append(user.login);}, "json");
+
+$.get("johnalxndr.json", function(user){
+    $('.contact').find('.location').append(user.location);}, "json");    
     
 $.get("johnalxndr.json", function(user){
-    $('.contact').find('strong').append(user.name);}, "json");
+    $('.contact').find('.email').append(user.email);}, "json");
     
 
 });
