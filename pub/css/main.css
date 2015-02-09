@@ -97,17 +97,73 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ul .active{
+    border-top: solid 3px #c76235;
+    border-radius: 5px;
+}
 
 li{
     list-style-type:none;
 }
-
-
-
-
-
-
-
+.popular-repositories{
+    border: 1px solid #c7c7c7;
+}
+.popular-repositories > li{
+    border-bottom: 1px solid #c7c7c7;
+    padding: 1.5ex;
+}
+.popular-repositories i{
+    float:right;
+    color: #999;
+}
+.contributed{
+    border: 1px solid #c7c7c7;
+}
+.contributed > li{
+    border-bottom: 1px solid #c7c7c7;
+    padding: 1.5ex;
+}
+.well{
+    text-align: center;
+    clear: both
+}
+.well > a{
+    text-decoration: none;
+}
+.profile{
+    list-style: none;
+    position: relative;
+    display: list-item;
+}
+.profile img{
+    float:left;
+    padding-right:1em;
+    padding-bottom: 1em;
+}
+ul.contact{
+    padding-top: 1em;
+}
+a.navbar-brand{
+    margin-left: 40%;
+    margin-top:-.25em;
+    font-size: 2.5em;
+}
+.contact a{
+    font-size: .75em;
+}
+.contact i{
+    padding-right: .5em
+}
+.contact li:nth-child(1){
+    font-size: 1.5em;
+}
+.popular-repository i{
+    
+}
+.contributed i{
+    float: right;
+    color:#999
+}
 
 
 

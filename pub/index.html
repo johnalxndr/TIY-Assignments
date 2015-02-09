@@ -13,6 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -24,46 +25,97 @@
 
         <!-- Add your site or application content here -->
     <div class="container-fluid">
-        <div class="col-sm-4 col-md-3">    
-            <h3>The Octocat</h3>
-            <h4>octocat</h4>
-            <hr>
-            <ul class="left-nav-top">
-                <li>GitHub</li>
-                <li>San Fransisco</li>
-                <li>octocat@github.com</li>
-                <li>http://www.github.com/blog</li>
-                <li>Joined on Jan 25, 2011</li>
-            </ul>
-            <hr>
-            <nav>
-                <a href="#">885 followers</a>
-                <a href="#">2 Starred</a>
-                <a href="#">6 Following</a>
-            </nav>
-            <hr>
-        </div> <!----Left Column----->
-        <div class="col xs-3 col-sm-3 col-md-5">
-        <ul class= "nav nav-tabs" role=tablist>
-            <!--        Nav Tabs    -->
-            <li class ="active"><a href="#" role="tab" data-toggle="tab">Contributions</a></li>
-            <li><a href="#" role="tab" data-toggle="tab">Repositories</a></li>
-            <li><a href="#" role="tab" data-toggle="tab">Public Activity</a></li>
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-github"></i></a>
+    </div>
+        <!--------top tab bar-------->
+        <ul class="nav nav-tabs" role="tablists">
+            <li class="active"><a href="#about" role="tab" data-toggle="tab">About</a></li>
+            <li><a href="#repositories" role="tab" data-toggle = "tab">Repositories</a></li> 
+<!--
+            <li><a href="#about" role="tab" data-toggle="tab">Contributions</a></li>
+            <li><a href="#about" role="tab" data-toggle="tab">Public Activity</a></li>
+-->
         </ul>
-            <!--      Tab Panel-->
+    <!--------------tab panes-------------->        
         <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="contributions">
-            <h3>gonna put stuff in here</h3>
+        <div role="tabpanel" class="tab-pane active" id="about">
+        <!-----------ABOUT-CONTENT------------>    
+            <div class="row">
+            <div class="profile">
+            <figure class="col-md-4">
+                <img src="https://avatars1.githubusercontent.com/u/9056270?v=3&s=460" style="height:200px; width=200px">
+            <ul class="contact">
+                <li><strong></strong></li>
+                <li class="username"><i class="fa fa-github"></i></li>
+                <li class="location"><i class="fa fa-location-arrow"></i></li>
+                <li class="email"><a href="mailto:jalexander788@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+            </ul>
+            </figure>
+            </div><!-----profile------>  
+        <div class="well well-sm">
+            <ul class="list-inline">
+                <li class="text-center"><a href="#"><span class="followers"></span><br>Followers</a></li>
+                <li class="text-center"><a href="#"><span class="starred"></span><br>Starred</a></li>
+                <li class="text-center"><a href="#"><span class="following"></span><br>Following</a></li>
+            </ul>
+        </div> 
+            
+        <ul class="popular-repositories">
+                <li>Popular repositories</li>
+                <li><a href="#">johnalxndr/FEE--2015--SPRING</a><i class="fa fa-star"></i></li>
+                <li><a href="#">johnalxndr/hello-world</a><i class="fa fa-star"></i></li>
+                <li><a href="#">johnalxndr/javascript-koans</a><i class="fa fa-star"></i></li>
+                <li><a href="#">johnalxndr/john.alxndr.github.io</a><i class="fa fa-star"></i></li>
+                <li><a href="#">johnalxndr/prezto</a><i class="fa fa-star"></i></li>
+            </ul>
+        <ul class="contributed">
+                <li>Repositories contributed to</li>
+                <li><a href="#">REPOS</a><i class="fa fa-star"></i></li>
+                <li><a href="#">REPOS</a><i class="fa fa-star"></i></li>
+                <li><a href="#">REPOS</a><i class="fa fa-star"></i></li>
+            </ul>    
+            
         </div>
+        </div>    
+        <div class="tab-content">
+        <div role="tabpanel" class="tab-pane" id="repositories">    
+        <!----------REPOSITORIES CONTENT------------>    
+            
         
-        
-        
-        
-    </div>  <!---Container----->  
-        
-        
-    
-       
+                
+            
+        </div>    
+        </div>
+        <div class="row second-row">
+                
+            
+            <div class="col-sm-6 col-sm-offset-3">
+                    <form id="comments" action="https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/254/comments?access_token=8299cf4d40242d94cd36eee9a54558bb15d1220e" method="post" enctype="text/plain">    
+            <textarea class="form-control" rows="8" form="comments" id="textbox"></textarea>
+                            
+                    </form>
+                <button type="button" class="btn btn-default" form="comments" value="submit" onclick="makewords()">Submit</button>
+            </div>    
+        </div><!--form-->
+                </div><!--col offset-->           
+        </div><!--classrow-->
+            <div class="row third-row col-sm-offset-8">
+                    
+            
+        </div> <!----Left Column----->
+            
+            
+            
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
