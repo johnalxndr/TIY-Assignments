@@ -22,13 +22,13 @@ $(document).ready(function(){
         if(s < 10 ){
             s = "0" + s 
         }
-        
+    
         
         color= '#' + h + m + s;
         
         document.body.style.background = color;
         
-        document.getElementById("clock").innerHTML = color;   
+        document.getElementById("clock").innerHTML = h + ':' + m + ':' + s;  
         
         setTimeout(myTime, 1000);
     }
