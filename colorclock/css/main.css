@@ -97,10 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
+#clock {
+	color: white;
+    text-align: center;
+    margin-top: 40%
+}
 
 
 
