@@ -97,9 +97,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container{
+}
 
-
-
+ul{
+    list-style: none;
+}
+li a{
+    text-align: center; 
+}
 
 
 
