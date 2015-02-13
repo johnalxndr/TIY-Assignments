@@ -99,12 +99,26 @@ textarea {
 
 .container{
 }
-
+h1{
+  color: #6CBFee 
+}
+h3{
+    color: #6cbfee
+}
 ul{
     list-style: none;
 }
 li a{
-    text-align: center; 
+    text-align: center;
+    font-size: 2em;
+    color: #6cbfee;
+    border-radius: 2px solid #6cbfee;
+}
+.text-box:nth-child(odd){
+    background-color:#3594CB; 
+}
+h5{
+    border-bottom: 1px solid #A6D8F4;
 }
 
 
