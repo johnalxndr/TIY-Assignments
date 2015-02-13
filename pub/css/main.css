@@ -74,7 +74,6 @@ fieldset {
     padding: 0;
 }
 
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -97,75 +96,281 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-ul .active{
-    border-top: solid 3px #c76235;
-    border-radius: 5px;
+
+table{
+    border: 2px solid #2be04e;
+    margin-left: 0 auto;
+    margin-right:0 auto;
+
+}
+td{
+    border: 2px solid #2be04e;
+    width:4em;
+    height:4em;
+}
+tr{
+    width: 100%;
+    height: 100%;
+}
+.r1 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r2 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r3 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r4 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r5 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r6 :nth-of-type(odd){
+    background-color: #999;
+     border: 2px solid #2be04e;
+}
+.r7 :nth-of-type(even){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+.r8 :nth-of-type(odd){
+    background-color: #999;
+    border: 2px solid #2be04e;
+}
+ #a8::before{
+   content: "\2656";
+   font-size: 2em;
+}
+ #a8:hover{
+    background-color: #1bbc6b;
+}
+ #b8::before{
+   content: "\2658";
+   font-size:2em;
+}
+#b8:hover{
+    background-color: #1bbc6b;
+}
+ #c8::before{
+   content: "\2657";
+     font-size:2em;
+}
+#c8:hover{
+    background-color: #1bbc6b;
+}
+#d8::before{
+   content: "\2655";
+   font-size:2em;
+}
+#d8:hover{
+    background-color: #1bbc6b;
+}
+ #e8::before{
+   content: "\2654";
+     font-size:2em;
+}
+#e8:hover{
+    background-color: #1bbc6b;
+}
+ #f8::before{
+   content: "\2657";
+     font-size:2em;
+}
+#f8:hover{
+    background-color: #1bbc6b;
+}
+ #g8::before{
+   content: "\2658";
+     font-size:2em;
+}
+#g8:hover{
+    background-color: #1bbc6b;
+}
+ #h8::before{
+   content: "\2656";
+   font-size:2em;
+}
+#h8:hover{
+    background-color: #1bbc6b;
+}
+ #a7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#a7:hover{
+    background-color: #1bbc6b;
 }
 
-li{
-    list-style-type:none;
+#b7::before{
+   content: "\2659";
+   font-size:2em;
 }
-.popular-repositories{
-    border: 1px solid #c7c7c7;
-}
-.popular-repositories > li{
-    border-bottom: 1px solid #c7c7c7;
-    padding: 1.5ex;
-}
-.popular-repositories i{
-    float:right;
-    color: #999;
-}
-.contributed{
-    border: 1px solid #c7c7c7;
-}
-.contributed > li{
-    border-bottom: 1px solid #c7c7c7;
-    padding: 1.5ex;
-}
-.well{
-    text-align: center;
-    clear: both
-}
-.well > a{
-    text-decoration: none;
-}
-.profile{
-    list-style: none;
-    position: relative;
-    display: list-item;
-}
-.profile img{
-    float:left;
-    padding-right:1em;
-    padding-bottom: 1em;
-}
-ul.contact{
-    padding-top: 1em;
-}
-a.navbar-brand{
-    margin-left: 40%;
-    margin-top:-.25em;
-    font-size: 2.5em;
-}
-.contact a{
-    font-size: .75em;
-}
-.contact i{
-    padding-right: .5em
-}
-.contact li:nth-child(1){
-    font-size: 1.5em;
-}
-.popular-repository i{
-    
-}
-.contributed i{
-    float: right;
-    color:#999
+#b7:hover{
+    background-color: #1bbc6b;
 }
 
+ #c7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#c7:hover{
+    background-color: #1bbc6b;
+}
+ #d7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#d7:hover{
+   background-color: #1bbc6b; 
+}
+ #e7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#e7:hover{
+    background-color: #1bbc6b;
+}
+ #f7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#f7:hover{
+    background-color: #1bbc6b;
+}
+ #g7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#g7:hover{
+    background-color: #1bbc6b;
+}
+ #h7::before{
+   content: "\2659";
+     font-size:2em;
+}
+#h7:hover{
+    background-color: #1bbc6b;
+}
 
+ #a2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#a2:hover{
+    background-color: #1bbc6b;
+}
+ #b2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#b2:hover{
+    background-color: #1bbc6b;
+}
+ #c2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#c2:hover{
+    background-color: #1bbc6b;
+}
+ #d2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#d2:hover{
+    background-color: #1bbc6b;
+}
+ #e2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#e2:hover{
+    background-color: #1bbc6b;
+}
+ #f2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#f2:hover{
+    background-color: #1bbc6b;
+}
+ #g2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#g2:hover{
+    background-color: #1bbc6b;
+}
+ #h2::before{
+   content: "\265F";
+     font-size:2em;
+}
+#h2:hover{
+    background-color: #1bbc6b;
+}
+ #a1::before{
+   content: "\265C";
+     font-size:2em;
+}
+#a1:hover{
+    background-color: #1bbc6b;
+}
+ #b1::before{
+   content: "\265E";
+     font-size:2em;
+}
+#b1:hover{
+    background-color: #1bbc6b;
+}
+ #c1::before{
+   content: "\265D";
+     font-size:2em;
+}
+#c1:hover{
+    background-color: #1bbc6b;
+}
+ #d1::before{
+   content: "\265A";
+     font-size:2em;
+}
+#d1:hover{
+    background-color: #1bbc6b;
+}
+ #e1::before{
+   content: "\265B";
+   font-size:2em;
+}
+#e1:hover{
+    background-color: #1bbc6b;
+}
+ #f1::before{
+   content: "\265D";
+     font-size:2em;
+}
+#f1:hover{
+    background-color: #1bbc6b;
+}
+ #g1::before{
+   content: "\265E";
+     font-size:2em;
+}
+#g1:hover{
+    background-color: #1bbc6b;
+}
+ #h1::before{
+   content: "\265C";
+    font-size:2em;
+}
+#h1:hover{
+    background-color: #1bbc6b;
+}
 
 
 
