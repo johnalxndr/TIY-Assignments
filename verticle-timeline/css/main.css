@@ -97,7 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container{
+.container-fluid{
+    margin-right:5ex
 }
 h1{
   color: #6CBFee 
@@ -285,21 +286,33 @@ h5{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 800px) { 
+.container-fluid{
+    margin-left:16em;
+}
+    
 .timeline{
     border-left: 1.5ex solid #A6D8F4;
 }
 .phone-icon{
     float:left;
     margin-right:1em;
+    margin-left:-3.9ex;
+    margin-top:-.5ex;
 }
-
+time{
+    font-size: 2em;
+    float:left;
+    margin-left:-7em;
+}
+.date{
+    font-size:1ex;
+    padding-left:8ex;
+}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
 .timeline{
-    border-left: 1.5ex solid #A6D8F4;
-    
-}
-    
+    border-left: 1.5ex solid #A6D8F4;    
+}   
     
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
