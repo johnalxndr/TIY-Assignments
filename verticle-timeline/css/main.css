@@ -107,6 +107,11 @@ h3{
 }
 ul{
     list-style: none;
+    border-left: 1.5ex solid #A6D8F4;
+}
+.phone-icon{
+    font-size:2.5em;
+    border:
 }
 li a{
     text-align: center;
