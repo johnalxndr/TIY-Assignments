@@ -109,10 +109,26 @@ ul{
     list-style: none;
     border-left: 1.5ex solid #A6D8F4;
 }
+.date{
+    color:#CDDBE4;
+    font-size:2ex;
+    width:25%;
+}
+.time-stamp{
+    color:#6CBFEE;
+    font-size: 3ex;
+    width: 95%;
+}
+
 .phone-icon{
     font-size:2.5em;
-    border:
+    color: white;
+    background: #3594CB;
+    float:right;
+    border: 5px solid #A6D8F4;
+    border-radius: 50%; 
 }
+
 li a{
     text-align: center;
     font-size: 2em;
