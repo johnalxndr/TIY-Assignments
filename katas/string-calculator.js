@@ -49,8 +49,11 @@ return numbers [A] - numbers [B];
 };
 
 function multiply (A, B){
-    
-}
+    return numbers [A] * numbers [B];
+};
+it('should multiply three and three', function(){
+    assert.equal(multiply("three","three"),9);            
+});
 
 it('should add zero and one', function(){
     assert.equal(plus("zero","one"),1);
@@ -67,7 +70,7 @@ it('should minus four from five',function(){
 });
 
 
-
+console.log(multiply("three","three"));
 console.log(plus("zero","one"));
 console.log(plus("zero","one"));
 console.log(plus("four", "five"));
