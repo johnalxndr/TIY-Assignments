@@ -40,43 +40,45 @@ return numbers [A] - numbers [B];
 };
 
 function multiply (A, B){
-    return numbers [A] * numbers [B];
+return numbers [A] * numbers [B];
+};    
+    
+function toNum(word){
+    return numbers [word];
 };
 
 
 
-    
-    
-    
-    
-    
-    
-it('should show three when 3 is called'), function(){
-    assert.equal(toNumber("three"),3)
-}
+
+
 
 it('should multiply three and three', function(){
     assert.equal(multiply("three","three"),9);            
 });
-
 it('should add zero and one', function(){
     assert.equal(plus("zero","one"),1);
 });
-
 it('should add four and five', function(){
     assert.equal(plus("four","five"),9);
 });
-it('shoudl add ten and ten', function(){
+it('should add ten and ten', function(){
     assert.equal(plus("ten","ten"),20);
+});
+it('should add twenty and twenty', function(){
+    assert.equal(plus("twenty","twenty"),40);
 });
 it('should minus four from five',function(){
     assert.equal(minus("five","four"),1);
 });
 
+it('should return 1 from one', function(){
+    assert.equal(toNum("one"),1);
+});
+it('should return 10 from ten', function(){
+    assert.equal(toNum("ten"),10);
+})
 
-
-
-//zero through ten
+//plus zero through ten
 console.log(plus("one","one"));
 console.log(plus("two","two"));
 console.log(plus("three","three"));
@@ -87,11 +89,26 @@ console.log(plus("seven","seven"));
 console.log(plus("eight","eight"));
 console.log(plus("nine","nine"));
 console.log(plus("ten","ten"));
-//ten through twenty
+console.log(plus("twenty","twenty"));
 
+//plus ten through twenty
+console.log(plus("ten","ten"));
+console.log(plus("eleven","eleven"));
+console.log(plus("three","three"));
+console.log(plus("four","four"));
+console.log(plus("five","five"));
+console.log(plus("six","six"));
+console.log(plus("seven","seven"));
+console.log(plus("eight","eight"));
+console.log(plus("nine","nine"));
+console.log(plus("ten","ten"));
 
-
-
-
+//minus zero through twenty
+console.log(minus("three","two"));
 console.log(minus("five","four"));
-console.log(multiply("three","three")); 
+
+// toNum through twenty
+console.log(toNum("one"));
+console.log(toNum("ten"));
+console.log(toNum("twenty"));
+
