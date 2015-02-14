@@ -1,7 +1,7 @@
 var assert = require('assert');
-//var _ = require('lodash');
+var _ = require('lodash');
 
-function plus (A, B){
+
     var numbers = {
         "zero": 0,
         "one": 1,
@@ -33,18 +33,24 @@ function plus (A, B){
 //        "twenty seven":27,
 //        "twenty eight":28,
 //        "twenty nine":29,
-        "thirty":30,
-        "fourty":40,
-        "fifty":50,
-        "sixty":60,
-        "ninety":90,
-        "hundred":100
+        "thirty": 30,
+        "fifty": 50,
+        "sixty": 60,
+        "ninety": 90,
+        "hundred": 100
     };
+
+function plus (A, B){
 return numbers [A] + numbers [B];
     };
 
+function minus (A, B){
+return numbers [A] - numbers [B];
+};
 
-
+function multiply (A, B){
+    
+}
 
 it('should add zero and one', function(){
     assert.equal(plus("zero","one"),1);
@@ -53,7 +59,18 @@ it('should add zero and one', function(){
 it('should add four and five', function(){
     assert.equal(plus("four","five"),9);
 });
+it('shoudl add ten and ten', function(){
+    assert.equal(plus("ten","ten"),20);
+});
+it('should minus four from five',function(){
+    assert.equal(minus("five","four"),1);
+});
+
+
+
 console.log(plus("zero","one"));
 console.log(plus("zero","one"));
 console.log(plus("four", "five"));
 console.log(plus("seven","three"));
+console.log(plus("ten","ten"));
+console.log(minus("five","four"));
