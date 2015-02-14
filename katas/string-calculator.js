@@ -24,15 +24,6 @@ var _ = require('lodash');
 		"eightteen": 18,
 		"nineteen": 19,
 		"twenty": 20,
-//        "twenty one": 21,
-//        "twenty two":22,
-//        "twenty three":23,
-//        "twenty four":24,
-//        "twenty five":25,
-//        "twenty six":26,
-//        "twenty seven":27,
-//        "twenty eight":28,
-//        "twenty nine":29,
         "thirty": 30,
         "fifty": 50,
         "sixty": 60,
@@ -51,6 +42,19 @@ return numbers [A] - numbers [B];
 function multiply (A, B){
     return numbers [A] * numbers [B];
 };
+
+
+
+    
+    
+    
+    
+    
+    
+it('should show three when 3 is called'), function(){
+    assert.equal(toNumber("three"),3)
+}
+
 it('should multiply three and three', function(){
     assert.equal(multiply("three","three"),9);            
 });
@@ -70,10 +74,24 @@ it('should minus four from five',function(){
 });
 
 
-console.log(multiply("three","three"));
-console.log(plus("zero","one"));
-console.log(plus("zero","one"));
-console.log(plus("four", "five"));
-console.log(plus("seven","three"));
+
+
+//zero through ten
+console.log(plus("one","one"));
+console.log(plus("two","two"));
+console.log(plus("three","three"));
+console.log(plus("four","four"));
+console.log(plus("five","five"));
+console.log(plus("six","six"));
+console.log(plus("seven","seven"));
+console.log(plus("eight","eight"));
+console.log(plus("nine","nine"));
 console.log(plus("ten","ten"));
+//ten through twenty
+
+
+
+
+
 console.log(minus("five","four"));
+console.log(multiply("three","three")); 
