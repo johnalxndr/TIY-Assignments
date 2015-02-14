@@ -23,7 +23,22 @@ function plus (A, B){
 		"seventeen": 17,
 		"eightteen": 18,
 		"nineteen": 19,
-		"twenty": 20
+		"twenty": 20,
+//        "twenty one": 21,
+//        "twenty two":22,
+//        "twenty three":23,
+//        "twenty four":24,
+//        "twenty five":25,
+//        "twenty six":26,
+//        "twenty seven":27,
+//        "twenty eight":28,
+//        "twenty nine":29,
+        "thirty":30,
+        "fourty":40,
+        "fifty":50,
+        "sixty":60,
+        "ninety":90,
+        "hundred":100
     };
 return numbers [A] + numbers [B];
     };
