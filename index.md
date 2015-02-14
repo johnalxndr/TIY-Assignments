@@ -3,4 +3,4 @@
 
 ### Projects
 
-* [Current WIP](pub/index.html)
+* [Timeline](verticle-timeline/index.html)
