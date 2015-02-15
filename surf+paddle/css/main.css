@@ -96,31 +96,41 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.container{
+    width: 100%;
+}
 header{
-    background: url(http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/Ocean-Waves-hd-Wallpapers-lovely-hd-desktop-background-wallpapers-of-ocean-free-download.jpg)
-    min-height: 180px;
-    margin-bottom: 10px;
+    background: url('http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/Ocean-Waves-hd-Wallpapers-lovely-hd-desktop-background-wallpapers-of-ocean-free-download.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: 100%;
+    min-height: 20%;
 }
 ul{
     text-decoration: none;
+}
+.top-nav > li{
+    color:#001842;
 }
 .about{ 
     color:white;
 }
 .search{
-    color:white;
+    color:#001842;
 }
 .drop{
     font-size: 2em;
-    color:white
-}
-small{
+    color:#001842;
 }
 h1{
-    
+    color: white;
 }
 h4{
     color: white;
+}
+h2{
+    color:#001842;
 }
 .share{
     font-size: 3ex;
@@ -144,10 +154,21 @@ figcaption{
     color: gray;
 }
 .center-left{
-    padding-left: 1em
+    padding-left: 1em;
 }
-
-
+footer{
+    background-color: #083452;
+}
+.logo img{
+    height: 5ex;
+    width:5ex;
+}
+.footer-nav a{
+    color: #C0C0BE;
+} 
+footer > p{
+    color:#C0C0BE;
+}
 
 
 
