@@ -96,12 +96,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
+header{
+    background-color: #001981;
+    min-height: 180px;
+    margin-bottom: 10px;
+}
+ul{
+    text-decoration: none;
+}
+.about{ 
+    color:white;
+}
+.search{
+    color:white;
+}
+.drop{
+    font-size: 2em;
+    color:white
+}
+small{
+}
+h1{
+    
+}
+h4{
+    color: white;
+}
+.share{
+    font-size: 3ex;
+    text-align: left;
+}
+.avatar{
+    border-radius: 50%;
+}
+ul.social{
+    text-decoration:none;
+    color:grey;
+}
+.facebook{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+figcaption{
+    text-align: right;
+    margin-right: 4ex;
+    text-decoration: underline;
+    color: gray;
+}
+.center-left{
+    padding-left: 1em
+}
 
 
 
@@ -220,9 +264,14 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
