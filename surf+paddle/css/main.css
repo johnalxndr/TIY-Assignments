@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 header{
-    background-color: #001981;
+    background: url(http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/Ocean-Waves-hd-Wallpapers-lovely-hd-desktop-background-wallpapers-of-ocean-free-download.jpg)
     min-height: 180px;
     margin-bottom: 10px;
 }
@@ -263,10 +263,21 @@ figcaption{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/*Medium */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media screen 
+    and (min-width: 768px) 
+    and (max-width: 1024px){
+    
 }
+
+@media screen
+and (min-width : 1025px)
+and (max-width : 1900px){
+    
+}
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
