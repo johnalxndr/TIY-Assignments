@@ -3,4 +3,4 @@
 
 ### Projects
 
-* [Timeline](verticle-timeline/index.html)
+* [Timeline](www.johnalxndr.github.io/verticle-timeline)
