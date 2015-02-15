@@ -25,8 +25,11 @@ var _ = require('lodash');
 		"nineteen": 19,
 		"twenty": 20,
         "thirty": 30,
+        "forty":40,
         "fifty": 50,
         "sixty": 60,
+        "seventy":70,
+        "eighty":80,
         "ninety": 90,
         "hundred": 100
     };
@@ -47,8 +50,17 @@ function toNum(word){
     return numbers [word];
 };
 
-
-
+function nums(A){
+    if(A.substring(0, 6)=="twenty"){
+        return 20 + toNum(A.substring(6,11));
+    }
+    if(A.substring(0, 5)=="fifty"){
+        return 50 + toNum(A.substring(5,11));
+    }
+    if(A.substring(0, 6)=="ninety"){
+        return 90 + toNum(A.substring(6,11));
+    }
+}
 
 
 
@@ -67,6 +79,9 @@ it('should add ten and ten', function(){
 it('should add twenty and twenty', function(){
     assert.equal(plus("twenty","twenty"),40);
 });
+it('should add twenty and one', function(){
+    assert.equal(plus("twenty","one"),21);
+});
 it('should minus four from five',function(){
     assert.equal(minus("five","four"),1);
 });
@@ -79,6 +94,7 @@ it('should return 10 from ten', function(){
 })
 
 //plus zero through ten
+console.log(nums("twentynine"));
 console.log(plus("one","one"));
 console.log(plus("two","two"));
 console.log(plus("three","three"));
@@ -90,6 +106,7 @@ console.log(plus("eight","eight"));
 console.log(plus("nine","nine"));
 console.log(plus("ten","ten"));
 console.log(plus("twenty","twenty"));
+console.log(plus("twenty","one"));
 
 //plus ten through twenty
 console.log(plus("ten","ten"));
@@ -102,13 +119,16 @@ console.log(plus("seven","seven"));
 console.log(plus("eight","eight"));
 console.log(plus("nine","nine"));
 console.log(plus("ten","ten"));
+console.log(plus(nums("fiftyone","twentynine")));
 
 //minus zero through twenty
 console.log(minus("three","two"));
 console.log(minus("five","four"));
 
-// toNum through twenty
+// toNum through 99
 console.log(toNum("one"));
 console.log(toNum("ten"));
 console.log(toNum("twenty"));
+console.log(nums("fiftytwo"));
+console.log(nums("ninetyeight"));
 
