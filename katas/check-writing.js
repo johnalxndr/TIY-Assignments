@@ -12,17 +12,26 @@ var n = [
     "eight",
     "nine",
     "ten",
+    "eleven",
+    "twelve",
+    "thirteen",
+    "fourteen",
+    "fifteen",
+    "sixteen",
+    "seventeen",
+    "eighteen",
+    "nineteen",
+    "twenty",
 ];
 
-function toCheck(n){
-    
+function toEnglish(A){
+    return n[A];
 }
 
-it('should ',function(){
-    assert.equal(n[1],"one");
+it('should take 10 and return ten',function(){
+    assert.equal(toEnglish(10),"ten");
 });
-it('should ',function(){
-    assert.equal(n[3],"three");
-});
+it('should take .50')
 
-    
+console.log(toEnglish(10));
+console.log(toEnglish(11));   
