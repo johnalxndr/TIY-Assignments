@@ -140,6 +140,9 @@ ul{
     font-size: 2em;
     color:#001842;
 }
+article{
+    text-align: left;
+}
 h1{
     color: white;
     margin-top: -.25ex;
@@ -150,10 +153,15 @@ h4{
     margin-top: 2em;
     padding-bottom: 1em;
 }
+.top-heading{
+    text-align: left;
+}
 h2{
     color:#001842;
     font-size:5ex;
-    text-align: left;
+}
+.popular{
+    text-align: center;
 }
 .share{
     font-size: 3ex;
@@ -189,10 +197,10 @@ footer{
 .footer-nav a{
     color: #C0C0BE;
 } 
-footer > p{
+footer > .p-footer{
     color:#C0C0BE;
+    text-align: center;
 }
-
 
 
 
