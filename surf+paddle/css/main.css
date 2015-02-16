@@ -96,15 +96,111 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
+.container{
+    width: 100%;
+}
+body{
+    font-family: 'Oswald', 'sans-serif';
+}
+header{
+    background: url('http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/Ocean-Waves-hd-Wallpapers-lovely-hd-desktop-background-wallpapers-of-ocean-free-download.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    background-size: 100%;
+    min-height: 30%;
+    position:relative;
+    margin-top:-1ex; 
+}
+.overlay {
+	background: rgba(17, 117, 192, 0.75);
+	bottom: 0;
+	left: 0;
+	position: relative;
+	right: 0;
+	top: 0;
+    min-height: 30%;
+}
+ul{
+    text-decoration: none;
+}
+.top-nav{
+    padding-bottom: 1e
+}
+.top-nav > li{
+    color:#001842;
+}
+.about{ 
+    color:white;
+}
+.search{
+    color:#001842;
+}
+.drop{
+    font-size: 2em;
+    color:#001842;
+}
+article{
+    text-align: left;
+}
+h1{
+    color: white;
+    margin-top: -.25ex;
+    text-align: 
+}
+h4{
+    color: #001842;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+.top-heading{
+    text-align: left;
+}
+h2{
+    color:#001842;
+    font-size:5ex;
+}
+.popular{
+    text-align: center;
+}
+.share{
+    font-size: 3ex;
+    text-align: left;
+}
+.avatar{
+    border-radius: 50%;
+}
+ul.social{
+    text-decoration:none;
+    color:grey;
+}
+.facebook{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+figcaption{
+    text-align: right;
+    margin-right: 4ex;
+    text-decoration: underline;
+    color: gray;
+}
+.center-left{
+    padding-left: 1em;
+}
+footer{
+    background-color: #083452;
+}
+.logo img{
+    height: 5ex;
+    width:5ex;
+}
+.footer-nav a{
+    color: #C0C0BE;
+} 
+footer > .p-footer{
+    color:#C0C0BE;
+    text-align: center;
+}
 
 
 
@@ -219,10 +315,21 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/*Medium */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media screen 
+    and (min-width: 768px) 
+    and (max-width: 1024px){
+    
 }
+
+@media screen
+and (min-width : 1025px)
+and (max-width : 1900px){
+    
+}
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
