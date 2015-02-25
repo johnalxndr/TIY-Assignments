@@ -31,9 +31,17 @@
           {{product.name}}
           <em class="pull-right">{{product.price | currency}}</em>
         </h3>
+
             <!-- Image Gallery  -->
-            <div class="gallery">
-                <img ng-src="{{product.images[0]}}" />
+            <div ng-show="product.images.length">
+                <!-- Fail 1 Message -->
+                <div ng-show="product.images">
+                    <img class="img img-circle img-thumbnail center-block" ng-src="{{product.images[0]}}" />
+                    <ul class="clearfix">
+                        <li class="small-image pull-left thumbnail" ng-repeat="image in product.images"> <img ng-src="{{image}}" /> </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
@@ -41,8 +49,6 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
