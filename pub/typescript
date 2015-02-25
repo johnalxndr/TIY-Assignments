@@ -1,37 +1,0 @@
-Script started on Fri Jan 23 11:56:59 2015
-[1m[7m%[27m[1m[0m                                                               ]7;file://Johns-MacBook-Pro.local/Users/johnmalexander/TIY-assignments/pub[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [K[?1h=[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [K....  ccd scripts[?1l>[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ cd scripts[K
-cd: no such file or directory: scripts
-[1m[7m%[27m[1m[0m                                                               ]7;file://Johns-MacBook-Pro.local/Users/johnmalexander/TIY-assignments/pub[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [K[?1h=[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [Kccd ..[?1l>[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/pub[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ cd ..[K
-[1m[7m%[27m[1m[0m                                                               ]7;file://Johns-MacBook-Pro.local/Users/johnmalexander/TIY-assignments[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [K[?1h=[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ [Kccd scripts[?1l>[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments[39m ([38;5;81mfeature/11--coding-dojo[39m[38;5;161m●[39m)
-$ cd scripts[K
-[1m[7m%[27m[1m[0m                                                               ]7;file://Johns-MacBook-Pro.local/Users/johnmalexander/TIY-assignments/scripts[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/scripts[39m ([38;5;81mfeature/11--coding-dojo[39m)
-$ [K[?1h=[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/scripts[39m ([38;5;81mfeature/11--coding-dojo[39m)
-$ [Kmmam mocha sr tring-cl alculator.js -w[?1l>[3A[0m[27m[24m[J
-[38;5;135mjohnmalexander[39m at [38;5;166mJohns-MacBook-Pro[39m in [38;5;118m~/TIY-assignments/scripts[39m ([38;5;81mfeature/11--coding-dojo[39m)
-$ mocha string-calculator.js -w[K
-
-[?25l
-
-[92m [0m[32m 0 passing[0m[90m (0ms)[0m
-
-
-Script done on Fri Jan 23 14:06:40 2015
