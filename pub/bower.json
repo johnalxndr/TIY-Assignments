@@ -1,21 +1,23 @@
 {
-  "name": "pub",
-  "version": "0.0.0",
-  "homepage": "https://github.com/johnalxndr/TIY-Assignments",
-  "authors": [
+    "name": "pub",
+    "version": "0.0.0",
+    "homepage": "https://github.com/johnalxndr/TIY-Assignments",
+    "authors": [
     "John Alexander <jalexander788@gmail.com>"
   ],
-  "main": "index.html",
-  "license": "MIT",
-  "ignore": [
+    "main": "index.html",
+    "license": "MIT",
+    "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "jquery": "~2.1.3",
-    "bootstrap": "~3.3.2"
-  }
+    "dependencies": {
+        "angular": "~1.3.14",
+        "bootstrap": "~3.3.2",
+        "jquery": "~2.1.3",
+        "lodash": "~3.3.1"
+    }
 }
