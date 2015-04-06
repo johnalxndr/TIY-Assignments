@@ -1,11 +1,9 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -22,7 +20,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -38,7 +35,6 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
@@ -51,7 +47,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -63,7 +58,6 @@ img,
 video {
     vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
@@ -73,7 +67,6 @@ fieldset {
     margin: 0;
     padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -81,7 +74,6 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
@@ -92,127 +84,143 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container{
+
+.container {
     width: 100%;
 }
-body{
+
+body {
     font-family: 'Oswald', 'sans-serif';
 }
-header{
+
+header {
     background: url('http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/Ocean-Waves-hd-Wallpapers-lovely-hd-desktop-background-wallpapers-of-ocean-free-download.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
     background-size: 100%;
-    min-height: 30%;
-    position:relative;
-    margin-top:-1ex; 
+    position: relative;
+    margin-top: -1.1em;
 }
+
 .overlay {
-	background: rgba(17, 117, 192, 0.75);
-	bottom: 0;
-	left: 0;
-	position: relative;
-	right: 0;
-	top: 0;
-    min-height: 30%;
+    background: rgba(17, 117, 192, 0.75);
 }
-ul{
+
+ul {
     text-decoration: none;
 }
-.top-nav{
-    padding-bottom: 1e
+
+.top-nav {
+    padding-top: 1em
 }
-.top-nav > li{
-    color:#001842;
+
+.top-nav > li {
+    color: #001842;
 }
-.about{ 
-    color:white;
+
+.about {
+    color: white;
 }
-.search{
-    color:#001842;
+
+.search {
+    color: #001842;
 }
-.drop{
+
+.drop {
     font-size: 2em;
-    color:#001842;
+    color: #001842;
 }
-article{
+
+.drop i {
+    margin-bottom: .5em;
+}
+
+article {
     text-align: left;
 }
-h1{
+
+article p {
+    font-weight: 300;
+}
+
+h1 {
     color: white;
     margin-top: -.25ex;
-    text-align: 
+    text-align:
 }
-h4{
+
+h4 {
     color: #001842;
     margin-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 7em;
 }
-.top-heading{
+
+.top-heading {
     text-align: left;
 }
-h2{
-    color:#001842;
-    font-size:5ex;
+
+h2 {
+    color: #001842;
+    font-size: 5ex;
 }
-.popular{
+
+.popular {
     text-align: center;
 }
-.share{
+
+.share {
     font-size: 3ex;
     text-align: left;
 }
-.avatar{
+
+.avatar {
     border-radius: 50%;
 }
-ul.social{
-    text-decoration:none;
-    color:grey;
+
+ul.social {
+    text-decoration: none;
+    color: grey;
 }
-.facebook{
+
+.facebook {
     border-left: 1px solid grey;
     border-right: 1px solid grey;
 }
-figcaption{
+
+figcaption {
     text-align: right;
     margin-right: 4ex;
     text-decoration: underline;
     color: gray;
 }
-.center-left{
+
+.center-left {
     padding-left: 1em;
 }
-footer{
+
+footer {
     background-color: #083452;
 }
-.logo img{
+
+.logo img {
     height: 5ex;
-    width:5ex;
+    width: 5ex;
 }
-.footer-nav a{
+
+.footer-nav a {
     color: #C0C0BE;
-} 
-footer > .p-footer{
-    color:#C0C0BE;
+}
+
+footer > .p-footer {
+    color: #C0C0BE;
     text-align: center;
 }
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Image replacement
  */
@@ -222,6 +230,7 @@ footer > .p-footer{
     border: 0;
     overflow: hidden;
     /* IE 6/7 fallback */
+    
     *text-indent: -9999px;
 }
 
@@ -231,7 +240,6 @@ footer > .p-footer{
     width: 0;
     height: 150%;
 }
-
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
@@ -240,7 +248,6 @@ footer > .p-footer{
     display: none !important;
     visibility: hidden;
 }
-
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
@@ -255,7 +262,6 @@ footer > .p-footer{
     position: absolute;
     width: 1px;
 }
-
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
@@ -270,7 +276,6 @@ footer > .p-footer{
     position: static;
     width: auto;
 }
-
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
@@ -278,7 +283,6 @@ footer > .p-footer{
 .invisible {
     visibility: hidden;
 }
-
 /*
  * Clearfix: contain floats
  *
@@ -293,14 +297,16 @@ footer > .p-footer{
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
-
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
@@ -309,7 +315,6 @@ footer > .p-footer{
 .clearfix {
     *zoom: 1;
 }
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -317,27 +322,16 @@ footer > .p-footer{
    ========================================================================== */
 /*Medium */
 
-@media screen 
-    and (min-width: 768px) 
-    and (max-width: 1024px){
-    
-}
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
 
-@media screen
-and (min-width : 1025px)
-and (max-width : 1900px){
-    
-}
-
-
+@media screen and (min-width: 1025px) and (max-width: 1900px) {}
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
@@ -346,64 +340,56 @@ and (max-width : 1900px){
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        color: #000 !important;
+        /* Black prints faster: h5bp.com/s */
+        
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links for images, or javascript/internal links
      */
-
+    
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
+        /* h5bp.com/t */
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     @page {
         margin: 0.5cm;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;

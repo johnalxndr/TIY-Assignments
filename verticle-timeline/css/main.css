@@ -96,12 +96,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.container-fluid{
-    margin-right:5ex;
+.header{
+    text-align: center;    
 }
 h1{
-  color: #6CBFee;
+    color: #6CBFee;
     margin-bottom: -2ex;
 }
 h3{
@@ -109,7 +108,6 @@ h3{
     margin-top: 5ex;
 }
 li a{
-    text-align: center;
     font-size: 2em;
     color: #6cbfee;
     border-radius: 2px solid #6cbfee;  
@@ -148,7 +146,6 @@ ul li{
     margin-left: 2ex
 }
 .timeline{
-    margin-top: 7ex;
     list-style:none; 
 }
 .phone-icon{
@@ -313,7 +310,7 @@ h5{
 @media (min-width: 700px) { 
 
 .container-fluid{
-    margin-left:12em;
+    margin-left:8em;
 }
 .timeline{
     border-left: 1.5ex solid #A6D8F4; 
@@ -329,12 +326,12 @@ h5{
 .phone-icon{
     float:left;
     margin-right:1em;
-    margin-left:-4.9ex;
-    margin-top:-.09ex;
+    margin-left:-4.5ex;
+    margin-top:-.12ex;
 }
 .times{
     float:left;
-    margin-left: -10em;
+    margin-left: -11em;
 }
 .date{
     font-size: 1.5ex;
