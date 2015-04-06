@@ -96,9 +96,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-.container-fluid{
-    margin-right:5ex;
+.header{
+    text-align: center;    
 }
 h1{
   color: #6CBFee;
@@ -315,6 +314,8 @@ h5{
 .container-fluid{
     margin-left:12em;
 }
+    .header{
+    }
 .timeline{
     border-left: 1.5ex solid #A6D8F4; 
 }
